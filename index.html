@@ -30,8 +30,6 @@
           var appNote = app.g_note;
           var appDownloadLink = app.d_linkDownload;
 
-          var encodedDownloadLink = btoa(appDownloadLink);
-
           var appDiv = document.createElement('div');
 
           var appNameHeader = document.createElement('h2');
@@ -54,12 +52,8 @@
           appDiv.appendChild(appNoteP);
 
           var downloadLink = document.createElement('a');
-          downloadLink.href = 'javascript:void(0);';
+          downloadLink.href = appDownloadLink;
           downloadLink.textContent = 'Tải về';
-          downloadLink.addEventListener('click', function(encodedLink) {
-            var decodedLink = decodeURIComponent(window.atob(encodedLink));
-            window.location.href = decodedLink;
-          }.bind(null, encodedDownloadLink));
 
           appDiv.appendChild(downloadLink);
 
