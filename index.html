@@ -64,6 +64,15 @@
           appDiv.appendChild(downloadLink);
 
           appContainer.appendChild(appDiv);
+
+          // Kiểm tra xem ứng dụng hiện tại có phải là ứng dụng cuối cùng hay không
+          var isLastApp = i === jsonData.length - 1;
+
+          // Nếu không phải ứng dụng cuối cùng, thêm dòng ngăn cách
+          if (!isLastApp) {
+            var horizontalLine = document.createElement('hr');
+            appContainer.appendChild(horizontalLine);
+          }
         }
       }
     };
