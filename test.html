@@ -6,7 +6,6 @@
     /* Định dạng CSS của ứng dụng của bạn */
     .app-container {
       display: flex;
-      align-items: center;
       border: 1px solid black;
       padding: 10px;
       margin-bottom: 10px;
@@ -20,6 +19,30 @@
 
     .app-info {
       flex: 1;
+    }
+
+    .column-divider {
+      border-left: 1px solid black;
+      margin: 0 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .app-container {
+        flex-direction: column;
+      }
+
+      .app-banner {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .column-divider {
+        border-left: none;
+        border-top: 1px solid black;
+        margin: 10px 0;
+      }
     }
   </style>
 </head>
@@ -98,8 +121,9 @@
 
           // Nếu không phải ứng dụng cuối cùng, thêm dòng ngăn cách
           if (!isLastApp) {
-            var horizontalLine = document.createElement('hr');
-            appContainer.appendChild(horizontalLine);
+            var columnDivider = document.createElement('div');
+            columnDivider.classList.add('column-divider');
+            appContainer.appendChild(columnDivider);
           }
         }
       }
