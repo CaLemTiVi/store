@@ -10,8 +10,14 @@
   <div id="app"></div>
 
   <script>
+    // Hàm mã hóa Base64 tùy chỉnh
+    function btoaURL(url) {
+      var base64 = btoa(url);
+      return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    }
+
     // Địa chỉ URL dữ liệu ứng dụng của bạn
-    var appsDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/apps.json';
+    var appsDataUrl = 'https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/apps.json';
 
     // Tạo yêu cầu HTTP để lấy dữ liệu từ URL
     var xhr = new XMLHttpRequest();
@@ -30,7 +36,8 @@
           var appNote = app.g_note;
           var appDownloadLink = app.d_linkDownload;
 
-          var encodedDownloadLink = btoa(appDownloadLink);
+          var encodedDownloadLink = btoaURL(appDownloadLink);
+          var encodedAppBanner = btoaURL(appBanner);
 
           var appDiv = document.createElement('div');
 
@@ -39,7 +46,7 @@
           appDiv.appendChild(appNameHeader);
 
           var appBannerImg = document.createElement('img');
-          appBannerImg.src = appBanner;
+          appBannerImg.src = 'data:image/jpeg;base64,' + encodedAppBanner;
           appBannerImg.alt = 'Banner';
           appBannerImg.style.width = '300px';
           appBannerImg.style.height = '168px';
