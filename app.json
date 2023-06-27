@@ -1,12 +1,21 @@
 [
 	{
-		"a_name":"DL Store",
-		"b_versionNameNew":"8.0",
+		"a_name":"tvQuickActions Pro",
+		"b_versionNameNew":"3.0.8",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/DLStore_v8.0.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/bannerDLStore.png",
-		"f_packageName":"com.dinhlap.dlstore",
-		"g_note":"Danh sách các Shop đã mua bộ cài giao diện trong bài ghim nhóm cho ai cần\nLink : https://www.facebook.com/groups/xiaomihometv\nHiện nay bản HomeTV bị Lậu chia sẻ nhất nhiều trên mạng, youtube. Khuyến cáo mọi người không nên làm theo dùng một thời gian sẽ bị khoá giao diện.\n\nVà có một số shop đã sử dụng bản Lậu, bản chộm cắp còn thông báo, tạo tin linh tinh gây hoang mang, ảnh hưởng quyền lợi của người dùng bản quyền giao diện Home TV.\nHãy tôn trọng công sức, chất xám của người khác."
+		"d_linkDownload":"https://github.com/CaLemTiVi/store/raw/main/apps/tvquickactions-308.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tvquickactions.jpg",
+		"f_packageName":"dev.vodik7.tvquickactions",
+		"g_note":"tvQuickActions là trình ánh xạ nút/phím được phát triển đặc biệt cho các thiết bị TV. Hỗ trợ Android TV, Google TV và AOSP trên hầu hết các thiết bị. Một trong những tính năng độc đáo chính cho phép bạn gán tối đa 5 hành động cho nút trên điều khiển từ xa và thêm nhiều chức năng hữu ích cho thiết bị của bạn. Mod Pro bởi PhápAPK"
+	},
+	{
+		"a_name":"HDO Box",
+		"b_versionNameNew":"2.0.9",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://github.com/CaLemTiVi/store/raw/main/apps/HDO_Box_AF_2.0.9_Mod_Banner.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/HDO_Box_1.png",
+		"f_packageName":"com.hdobox",
+		"g_note":"HDO Box là một ứng dụng mà bạn có thể phát trực tuyến hàng ngàn bộ phim và giày truyền hình hoàn toàn miễn phí. Điều tốt nhất về HDO Box là giao diện người dùng. Thiết kế đáp ứng và điều hướng dễ dàng làm cho nó đứng đầu danh sách\n\nCác bộ phim và chương trình truyền hình được phân loại và hiển thị đẹp mắt trên màn hình chính. Nó có phần Xu hướng chứa các thể loại khác nhau như Hành động, Hài kịch, Khoa học viễn tưởng, Kinh dị, Bí ẩn, v.v. Tiêu đề hiển thị các thông tin khác như xếp hạng IMDB, Năm phát hành, Dàn diễn viên chính, v.v."
 	},
 	{
 		"a_name":"Home TV",
