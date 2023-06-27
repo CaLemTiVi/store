@@ -45,6 +45,19 @@
       }
     }
   </style>
+  <script>
+    // Chặn xem mã nguồn và chuột phải
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      // Chặn phím F12
+      if (e.key === 'F12') {
+        e.preventDefault();
+      }
+    });
+  </script>
 </head>
 <body>
   <div id="app"></div>
