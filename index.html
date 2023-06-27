@@ -30,6 +30,8 @@
           var appNote = app.g_note;
           var appDownloadLink = app.d_linkDownload;
 
+          var encodedDownloadLink = btoa(appDownloadLink);
+
           var appDiv = document.createElement('div');
 
           var appNameHeader = document.createElement('h2');
@@ -37,26 +39,10 @@
           appDiv.appendChild(appNameHeader);
 
           var appBannerImg = document.createElement('img');
+          appBannerImg.src = appBanner;
           appBannerImg.alt = 'Banner';
           appBannerImg.style.width = '300px';
           appBannerImg.style.height = '168px';
-
-          // Tải ảnh bằng JavaScript và gán vào src của thẻ <img>
-          (function(img) {
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', appBanner, true);
-            xhr.responseType = 'blob';
-            xhr.onload = function() {
-              if (xhr.status === 200) {
-                var blob = xhr.response;
-                var urlCreator = window.URL || window.webkitURL;
-                var imageUrl = urlCreator.createObjectURL(blob);
-                img.src = imageUrl;
-              }
-            };
-            xhr.send();
-          })(appBannerImg);
-
           appDiv.appendChild(appBannerImg);
 
           var appVersionNewP = document.createElement('p');
@@ -73,7 +59,7 @@
           downloadLink.addEventListener('click', function(encodedLink) {
             var decodedLink = decodeURIComponent(window.atob(encodedLink));
             window.location.href = decodedLink;
-          }.bind(null, appDownloadLink));
+          }.bind(null, encodedDownloadLink));
 
           appDiv.appendChild(downloadLink);
 
