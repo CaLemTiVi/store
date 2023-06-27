@@ -55,7 +55,13 @@
 
           var downloadLink = document.createElement('a');
           downloadLink.href = 'javascript:void(0);';
-          downloadLink.textContent = 'Tải về';
+
+          // Thay thế chữ "Tải về" bằng ảnh
+          var downloadImage = document.createElement('img');
+          downloadImage.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/download.png';
+          downloadImage.alt = 'Tải về';
+          downloadLink.appendChild(downloadImage);
+
           downloadLink.addEventListener('click', function(encodedLink) {
             var decodedLink = decodeURIComponent(window.atob(encodedLink));
             window.location.href = decodedLink;
