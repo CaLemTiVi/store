@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ứng dụng của tôi</title>
+  <style>
+    /* Định dạng CSS của ứng dụng của bạn */
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    // Địa chỉ URL dữ liệu ứng dụng của bạn
+    var appsDataUrl = 'https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/apps.json';
+
+    // Tạo yêu cầu HTTP để lấy dữ liệu từ URL
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', appsDataUrl, true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Xử lý dữ liệu nhận được
+        var jsonData = JSON.parse(xhr.responseText);
+        var appContainer = document.getElementById('app');
+
+        for (var i = 0; i < jsonData.length; i++) {
+          var app = jsonData[i];
+          var appName = app.a_name;
+          var appVersionNew = app.b_versionNameNew;
+          var appBanner = app.e_banner;
+          var appNote = app.g_note;
+          var appDownloadLink = app.d_linkDownload;
+
+          var encodedDownloadLink = btoa(appDownloadLink);
+
+          var appDiv = document.createElement('div');
+
+          var appNameHeader = document.createElement('h2');
+          appNameHeader.textContent = appName;
+          appDiv.appendChild(appNameHeader);
+
+          var appBannerImg = document.createElement('img');
+          appBannerImg.src = appBanner;
+          appBannerImg.alt = 'Banner';
+          appBannerImg.style.width = '300px';
+          appBannerImg.style.height = '168px';
+          appDiv.appendChild(appBannerImg);
+
+          var appVersionNewP = document.createElement('p');
+          appVersionNewP.textContent = 'Phiên bản mới: ' + appVersionNew;
+          appDiv.appendChild(appVersionNewP);
+
+          var appNoteP = document.createElement('p');
+          appNoteP.textContent = 'Ghi chú: ' + appNote;
+          appDiv.appendChild(appNoteP);
+
+          var downloadLink = document.createElement('a');
+          downloadLink.href = 'javascript:void(0);';
+          downloadLink.textContent = 'Tải về';
+          downloadLink.addEventListener('click', function(encodedLink) {
+            var decodedLink = decodeURIComponent(window.atob(encodedLink));
+            window.location.href = decodedLink;
+          }.bind(null, encodedDownloadLink));
+
+          appDiv.appendChild(downloadLink);
+
+          appContainer.appendChild(appDiv);
+        }
+      }
+    };
+    xhr.send();
+  </script>
+</body>
+</html>
