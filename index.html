@@ -4,6 +4,46 @@
   <title>Kho Ứng dụng DL Store</title>
   <style>
     /* Định dạng CSS của ứng dụng của bạn */
+    .app-container {
+      display: flex;
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .app-banner {
+      width: 300px;
+      height: 168px;
+      margin-right: 10px;
+    }
+
+    .app-info {
+      flex: 1;
+    }
+
+    .column-divider {
+      border-left: 1px solid black;
+      margin: 0 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .app-container {
+        flex-direction: column;
+      }
+
+      .app-banner {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .column-divider {
+        border-left: none;
+        border-top: 1px solid black;
+        margin: 10px 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -33,25 +73,28 @@
           var encodedDownloadLink = btoa(appDownloadLink);
 
           var appDiv = document.createElement('div');
-
-          var appNameHeader = document.createElement('h2');
-          appNameHeader.textContent = appName;
-          appDiv.appendChild(appNameHeader);
+          appDiv.classList.add('app-container');
 
           var appBannerImg = document.createElement('img');
           appBannerImg.src = appBanner;
           appBannerImg.alt = 'Banner';
-          appBannerImg.style.width = '300px';
-          appBannerImg.style.height = '168px';
+          appBannerImg.classList.add('app-banner');
           appDiv.appendChild(appBannerImg);
+
+          var appInfoDiv = document.createElement('div');
+          appInfoDiv.classList.add('app-info');
+
+          var appNameHeader = document.createElement('h2');
+          appNameHeader.textContent = appName;
+          appInfoDiv.appendChild(appNameHeader);
 
           var appVersionNewP = document.createElement('p');
           appVersionNewP.textContent = 'Phiên bản mới: ' + appVersionNew;
-          appDiv.appendChild(appVersionNewP);
+          appInfoDiv.appendChild(appVersionNewP);
 
           var appNoteP = document.createElement('p');
           appNoteP.textContent = 'Ghi chú: ' + appNote;
-          appDiv.appendChild(appNoteP);
+          appInfoDiv.appendChild(appNoteP);
 
           var downloadLink = document.createElement('a');
           downloadLink.href = 'javascript:void(0);';
@@ -67,7 +110,9 @@
             window.location.href = decodedLink;
           }.bind(null, encodedDownloadLink));
 
-          appDiv.appendChild(downloadLink);
+          appInfoDiv.appendChild(downloadLink);
+
+          appDiv.appendChild(appInfoDiv);
 
           appContainer.appendChild(appDiv);
 
@@ -76,8 +121,9 @@
 
           // Nếu không phải ứng dụng cuối cùng, thêm dòng ngăn cách
           if (!isLastApp) {
-            var horizontalLine = document.createElement('hr');
-            appContainer.appendChild(horizontalLine);
+            var columnDivider = document.createElement('div');
+            columnDivider.classList.add('column-divider');
+            appContainer.appendChild(columnDivider);
           }
         }
       }
