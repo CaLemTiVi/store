@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ứng dụng của tôi</title>
+  <style>
+    /* Định dạng CSS của ứng dụng của bạn */
+    .app-container {
+      display: flex;
+      align-items: center;
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .app-banner {
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    .app-info {
+      flex: 2;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    // Địa chỉ URL dữ liệu ứng dụng của bạn
+    var appsDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/apps.json';
+
+    // Tạo yêu cầu HTTP để lấy dữ liệu từ URL
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', appsDataUrl, true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Xử lý dữ liệu nhận được
+        var jsonData = JSON.parse(xhr.responseText);
+        var appContainer = document.getElementById('app');
+
+        for (var i = 0; i < jsonData.length; i++) {
+          var app = jsonData[i];
+          var appName = app.a_name;
+          var appVersionNew = app.b_versionNameNew;
+          var appBanner = app.e_banner;
+          var appNote = app.g_note;
+          var appDownloadLink = app.d_linkDownload;
+
+          var encodedDownloadLink = btoa(appDownloadLink);
+
+          var appDiv = document.createElement('div');
+          appDiv.classList.add('app-container');
+
+          var appBannerImg = document.createElement('img');
+          appBannerImg.src = appBanner;
+          appBannerImg.alt = 'Banner';
+          appBannerImg.style.width = '300px';
+          appBannerImg.style.height = '168px';
+          appBannerImg.classList.add('app-banner');
+          appDiv.appendChild(appBannerImg);
+
+          var appInfoDiv = document.createElement('div');
+          appInfoDiv.classList.add('app-info');
+
+          var appNameHeader = document.createElement('h2');
+          appNameHeader.textContent = appName;
+          appInfoDiv.appendChild(appNameHeader);
+
+          var appVersionNewP = document.createElement('p');
+          appVersionNewP.textContent = 'Phiên bản mới: ' + appVersionNew;
+          appInfoDiv.appendChild(appVersionNewP);
+
+          var appNoteP = document.createElement('p');
+          appNoteP.textContent = 'Ghi chú: ' + appNote;
+          appInfoDiv.appendChild(appNoteP);
+
+          var downloadLink = document.createElement('a');
+          downloadLink.href = 'javascript:void(0);';
+          downloadLink.textContent = 'Tải về';
+          downloadLink.addEventListener('click', function(encodedLink) {
+            var decodedLink = decodeURIComponent(window.atob(encodedLink));
+            window.location.href = decodedLink;
+          }.bind(null, encodedDownloadLink));
+
+          appInfoDiv.appendChild(downloadLink);
+
+          appDiv.appendChild(appInfoDiv);
+
+          appContainer.appendChild(appDiv);
+
+          var isLastApp = i === jsonData.length - 1;
+          if (!isLastApp) {
+            var horizontalLine = document.createElement('hr');
+            appContainer.appendChild(horizontalLine);
+          }
+        }
+      }
+    };
+    xhr.send();
+  </script>
+</body>
+</html>
