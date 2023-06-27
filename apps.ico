@@ -1,0 +1,20 @@
+[
+	{
+		"a_name":"tvQuickActions Pro",
+		"b_versionNameNew":"3.0.8",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://github.com/CaLemTiVi/store/raw/main/apps/tvquickactions-308.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tvquickactions.jpg",
+		"f_packageName":"dev.vodik7.tvquickactions",
+		"g_note":"tvQuickActions là trình ánh xạ nút/phím được phát triển đặc biệt cho các thiết bị TV. Hỗ trợ Android TV, Google TV và AOSP trên hầu hết các thiết bị. Một trong những tính năng độc đáo chính cho phép bạn gán tối đa 5 hành động cho nút trên điều khiển từ xa và thêm nhiều chức năng hữu ích cho thiết bị của bạn, được MOD pro bởi PhápAPK."
+	},
+{
+		"a_name":"HDO Box",
+		"b_versionNameNew":"2.0.9",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://github.com/CaLemTiVi/store/raw/main/apps/HDO_Box_AF_2.0.9_Mod_Banner.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/HDO_Box_1.png",
+		"f_packageName":"com.hdobox",
+		"g_note":"HDO Box là một ứng dụng mà bạn có thể phát trực tuyến hàng ngàn bộ phim và giày truyền hình hoàn toàn miễn phí. Điều tốt nhất về HDO Box là giao diện người dùng. Thiết kế đáp ứng và điều hướng dễ dàng làm cho nó đứng đầu danh sách\n\nCác bộ phim và chương trình truyền hình được phân loại và hiển thị đẹp mắt trên màn hình chính. Nó có phần Xu hướng chứa các thể loại khác nhau như Hành động, Hài kịch, Khoa học viễn tưởng, Kinh dị, Bí ẩn, v.v. Tiêu đề hiển thị các thông tin khác như xếp hạng IMDB, Năm phát hành, Dàn diễn viên chính, v.v."
+	},
+]
