@@ -18,12 +18,12 @@
 		"g_note":"HDO Box là một ứng dụng mà bạn có thể phát trực tuyến hàng ngàn bộ phim và giày truyền hình hoàn toàn miễn phí. Điều tốt nhất về HDO Box là giao diện người dùng. Thiết kế đáp ứng và điều hướng dễ dàng làm cho nó đứng đầu danh sách\n\nCác bộ phim và chương trình truyền hình được phân loại và hiển thị đẹp mắt trên màn hình chính. Nó có phần Xu hướng chứa các thể loại khác nhau như Hành động, Hài kịch, Khoa học viễn tưởng, Kinh dị, Bí ẩn, v.v. Tiêu đề hiển thị các thông tin khác như xếp hạng IMDB, Năm phát hành, Dàn diễn viên chính, v.v."
 	},
 	{
-		"a_name":"Home TV",
-		"b_versionNameNew":"13.0.1,6.0,16-Mi3S,10.0.0,15.0.4",
-		"c_versionName":"13.0.1,X,6.0,16-Mi3S,10.0.0,15.0.4,16-Shop",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Home_TV_13.0.1_to_v1616161616.apk",
-		"e_banner":"com.xiaomi.hometv,com.xiaomi.mitv.voicecontrol",
-		"f_packageName":"com.dinhlap.hometv",
-		"g_note":"Cập nhật HomeTV cho TV \nNâng cấp bảo mật, giao giện đẹp hơn.\nThêm nhiều tính năng như đưa chương trình từ DL Tivi ra màn hình chính.\nNhà phát triển Đình Lập: https://www.facebook.com/DinhlapD.Lp"
+		"a_name":"OttPlayer",
+		"b_versionNameNew":"7.0.1",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://github.com/CaLemTiVi/store/raw/main/apps/OttPlayer_7.0.1_VH_calemtv.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/ottplayer.png",
+		"f_packageName":"es.ottplayer.tv",
+		"g_note":"Xem IPTV từ ISP của bạn hoặc từ các nguồn khác trên điện thoại, máy tính bảng, đầu thu kỹ thuật số hoặc TV! Và tất cả điều này là với sự kiểm soát tập trung thông qua trang web! Việt hóa bởi Cà Lem TV - https://calemtv.com"
 	}
 ]
