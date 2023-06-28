@@ -123,5 +123,14 @@
                  "e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//kiki.png", 
                  "f_packageName":"ai.zalo.kiki.tv", 
                  "g_note":"Kiki - Android TV là phiên bản hỗ trợ Kiki sử dụng trên TV thông minh và các TV Box chạy hệ điều hành Android TV. Tính năng điều khiển bằng giọng nói mang lại sự tiện ích khi xem TV. Chỉ bằng một câu nói đơn giản, người dùng có thể giao tiếp với trợ lý Kiki để mở kênh truyền hình, video trên youtube và nhiều tác vụ hữu ích khác.\nPhát triển bởi : by Zalo Group" 
-         }
+         },
+{
+		"a_name":"TiviMate",
+		"b_versionNameNew":"2.8.0",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/wjio3iulhrkvg6t/TiviMate_TV.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//tivi_mate.jpg",
+		"f_packageName":"ar.tvplayer.tv",
+		"g_note":"Với TiviMate, bạn có thể xem các kênh truyền hình trực tiếp từ nhà cung cấp IPTV của mình trên các hộp giải mã Android.\n\nNhững đặc điểm chính:\n• Giao diện người dùng hiện đại được thiết kế cho màn hình lớn\n• Hỗ trợ cho nhiều danh sách phát\n• Cập nhật hướng dẫn truyền hình theo lịch trình\n• Kênh yêu thích\n• Bắt kịp\n• Tìm kiếm\n• và nhiều hơn nữa\n\nQUAN TRỌNG! TiviMate không cung cấp bất kỳ nguồn TV nào. Bạn cần thêm danh sách phát từ nhà cung cấp IPTV để có thể xem các kênh truyền hình trực tiếp.\n."
+	},
 ]
