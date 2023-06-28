@@ -34,6 +34,33 @@
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//youtube_tv.png",
 		"f_packageName":"com.google.android.youtube.tv",
 		"g_note":"Khám phá những nội dung thịnh hành trên thế giới - từ các video nhạc đình đám cho đến các nội dung nổi bật về trò chơi, thể dục, phim ảnh, chương trình giải trí, tin tức, học tập và nhiều chủ đề khác. Đăng ký những kênh bạn yêu thích, duyệt xem nội dung đề xuất cho riêng bạn và tận hưởng thư viện nội dung 4K lớn nhất. \n\n- Nếu bị lỗi mạng(thử lại) thì hãy vào Cài đặt/Ứng dụng/Tìm phần quyền Internet và cấp cho youtube để sử dụng."
+	},
+	{
+		"a_name":"Youtube TV To SmartNext",
+		"b_versionNameNew":"4.0",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/puevh6obkzjov6l/Youtube_to_SmartTubeNexv4.0.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//YoutubeToSmartNext.png",
+		"f_packageName":"com.google.android.youtube.tv",
+		"g_note":"Youtube TV To SmartNext là cầu nối tìm kiếm kết quả Youtube chuyển sang cho các ứng dụng SmartYoutube.\n\nĐể sử dụng được hãy xoá Youtube Gốc và cài đặt Youtube To SmartNext.\n\nHỗ trợ cầu nối và độ yêu tiên khi bạn cài song song nhiều ứng dụng SmartYoutube:\ncom.liskovsoft.smarttubetv, com.liskovsoft.smarttubetv.beta,\ncom.teamsmart.videomanager.tv, com.redboxtv.smarttubetv,\ncom.sibsetru.smarttubetv.\n\n"
+	},
+	{
+		"a_name":"SmartTube Next(Stable)",
+		"b_versionNameNew":"Bản Stable mới nhất",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_stable.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SmartTube(Stable).png",
+		"f_packageName":"com.teamsmart.videomanager.tv",
+		"g_note":"SmartTubeNext - Ứng dụng SmartYoutube miễn phí chặn quảng cáo xem video youtube trên Android TV Box.\n\nCác tính năng phát hành hiện tại:\n\nChạy trên Android 4.3 trở lên\nDuyệt qua Tin tức, Trò chơi, Âm nhạc\nDuyệt qua đăng ký, lịch sử, danh sách phát\nPhát video\nThích, Không thích hoặc Đăng ký cho video\nTìm kiếm video\nXem nội dung kênh đã đăng ký\nThay đổi các cài đặt khác nhau cho trình phát video\nXem trước hoạt ảnh cho video\nCác kênh Android TV và hỗ trợ tìm kiếm"
+	},
+	{
+		"a_name":"SmartTube Next(Beta)",
+		"b_versionNameNew":"Bản Beta mới nhất",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_beta.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SmartTube(Beta).png",
+		"f_packageName":"com.liskovsoft.smarttubetv.beta",
+		"g_note":"SmartTubeNext - Ứng dụng SmartYoutube miễn phí chặn quảng cáo xem video youtube trên Android TV Box.\n\nCác tính năng phát hành hiện tại:\n\nChạy trên Android 4.3 trở lên\nDuyệt qua Tin tức, Trò chơi, Âm nhạc\nDuyệt qua đăng ký, lịch sử, danh sách phát\nPhát video\nThích, Không thích hoặc Đăng ký cho video\nTìm kiếm video\nXem nội dung kênh đã đăng ký\nThay đổi các cài đặt khác nhau cho trình phát video\nXem trước hoạt ảnh cho video\nCác kênh Android TV và hỗ trợ tìm kiếm"
 	}
 
 ]
