@@ -115,5 +115,23 @@
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//beetv.png",
 		"f_packageName":"com.quangkv.beetv",
 		"g_note":"Hot BeeTV xem truyền hình, miễn phí.\nLưu ý: Chỉ hỗ trợ android 7 trở lên.\nNguồn : http://www.quangkv.com/"
+	},
+	{
+		"a_name":"TiviMate",
+		"b_versionNameNew":"2.8.0",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/wjio3iulhrkvg6t/TiviMate_TV.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//tivi_mate.jpg",
+		"f_packageName":"ar.tvplayer.tv",
+		"g_note":"Với TiviMate, bạn có thể xem các kênh truyền hình trực tiếp từ nhà cung cấp IPTV của mình trên các hộp giải mã Android.\n\nNhững đặc điểm chính:\n• Giao diện người dùng hiện đại được thiết kế cho màn hình lớn\n• Hỗ trợ cho nhiều danh sách phát\n• Cập nhật hướng dẫn truyền hình theo lịch trình\n• Kênh yêu thích\n• Bắt kịp\n• Tìm kiếm\n• và nhiều hơn nữa\n\nQUAN TRỌNG! TiviMate không cung cấp bất kỳ nguồn TV nào. Bạn cần thêm danh sách phát từ nhà cung cấp IPTV để có thể xem các kênh truyền hình trực tiếp."
+	},
+	{
+		"a_name":"DL Tivi",
+		"b_versionNameNew":"12.3.3",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/DLTivi_v12.3.3.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//banner_DLTivi.png",
+		"f_packageName":"com.dinhlap.tivi",
+		"g_note":"DL Tivi là ứng dụng xem video, truyền hình yêu cầu sử dụng mạng dàng cho cả điện thoạt và TV.\n+Tìm kiếm bằng giọng nói.\n+ Lưu lại hai đường link danh sách kênh\n+ Tự động vào ngay kênh phát gần nhất lần trước.\n+ Giao diện dễ dùng : nhấn phím sang Trái hoặc phím sang Phải hiện danh sách  kênh, nhấn phím OK để mở Controller.\n+ Thay đổi tỉ lệ màn hình cho phù hợp.\n+ Điều khiển kênh bằng các phím số.\n+ Tính năng khởi động cùng thiết bị có thể không hoạt động trên thiết bị xiaomi.\n\nNhà phát triển: Đình Lập\nLiên hệ: https://www.facebook.com/DinhlapD.Lp"
 	}
 ]
