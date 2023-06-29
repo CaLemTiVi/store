@@ -98,7 +98,7 @@
 		"f_packageName":"com.quang.monstertv",
 		"g_note":"Monster TV là ứng dụng giải trí trực tuyến dành cho bạn!\n\nMonster TV giúp bạn xem hoàn toàn miễn phí với:\n+ Gần 200 kênh trong nước và quốc tế với chất lượng Full HD: siêu nhanh, siêu nét, siêu mượt, siêu ổn định\n+ Nhiều kênh trong nước vtv, htv, htvc, thể thao, bóng đá, kênh phim thuần việt\n+ Thể thao 24h, thể thao trong nước và quốc tế\n+ Kho phim ảnh lên tới hàng ngàn bộ phim hay và hấp dẫn, có hỗ trợ sub tiếng Việt\n+ Xem lại các chương trình tivi các kênh từ VTV1 đến VTV6 trong 2 ngày gần nhất (hôm nay và hôm qua)\n\nPhát triển ứng dụng: Dang Ngoc Quang"
 	},
-{
+	{
 		"a_name":"iMedia - Xem Tivi HD",
 		"b_versionNameNew":"230601_MOD_beta",
 		"c_versionName":"versionName",
@@ -106,7 +106,8 @@
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//iMedia.png",
 		"f_packageName":"com.kt.apps.media.xemtv",
 		"g_note":"Ứng dụng iMedia là một ứng dụng miễn phí trên nền tảng Android TV, cho phép người dùng xem truyền hình và phát thanh phổ thông mà không cần phải trả bất kỳ khoản phí nào. Ứng dụng cũng không có quảng cáo, mang lại cho người dùng một trải nghiệm sử dụng không bị gián đoạn.\n\niMedia có giao diện đơn giản và dễ sử dụng, với các tính năng như chọn kênh truyền hình hoặc phát thanh yêu thích của bạn, tìm kiếm nhanh chóng..."
-	},{
+	},
+	{
 		"a_name":"BeeTV - Xem TV miễn phí",
 		"b_versionNameNew":"1.14",
 		"c_versionName":"versionName",
@@ -123,14 +124,14 @@
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//tivi_mate.jpg",
 		"f_packageName":"ar.tvplayer.tv",
 		"g_note":"Với TiviMate, bạn có thể xem các kênh truyền hình trực tiếp từ nhà cung cấp IPTV của mình trên các hộp giải mã Android.\n\nNhững đặc điểm chính:\n• Giao diện người dùng hiện đại được thiết kế cho màn hình lớn\n• Hỗ trợ cho nhiều danh sách phát\n• Cập nhật hướng dẫn truyền hình theo lịch trình\n• Kênh yêu thích\n• Bắt kịp\n• Tìm kiếm\n• và nhiều hơn nữa\n\nQUAN TRỌNG! TiviMate không cung cấp bất kỳ nguồn TV nào. Bạn cần thêm danh sách phát từ nhà cung cấp IPTV để có thể xem các kênh truyền hình trực tiếp."
-	}
-{ 
-                 "a_name":"Kiki - Trợ lý ảo Zalo", 
+	},
+	{ 
+       "a_name":"Kiki - Trợ lý ảo Zalo", 
                  "b_versionNameNew":"23.4.2-DEMO", 
                  "c_versionName":"versionName", 
                  "d_linkDownload":"https://www.dropbox.com/s/7ip4kiw3csrj83l/Kiki-23.4.2-PARTNER-DEMO.apk?dl=1", 
                  "e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//kiki.png", 
                  "f_packageName":"ai.zalo.kiki.tv", 
                  "g_note":"Kiki - Android TV là phiên bản hỗ trợ Kiki sử dụng trên TV thông minh và các TV Box chạy hệ điều hành Android TV. Tính năng điều khiển bằng giọng nói mang lại sự tiện ích khi xem TV. Chỉ bằng một câu nói đơn giản, người dùng có thể giao tiếp với trợ lý Kiki để mở kênh truyền hình, video trên youtube và nhiều tác vụ hữu ích khác.\nPhát triển bởi : by Zalo Group"
-}
+	}
 ]
