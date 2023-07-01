@@ -22,7 +22,7 @@
 		"b_versionNameNew":"2.02.14",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/youtubeF.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//youtube_tv.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/youtube_tv.png",
 		"f_packageName":"com.google.android.youtube.tv",
 		"g_note":"Khám phá những nội dung thịnh hành trên thế giới -- từ các video nhạc đình đám cho đến các nội dung nổi bật về trò chơi, thể dục, phim ảnh, chương trình giải trí, tin tức, học tập và nhiều chủ đề khác. Đăng ký những kênh bạn yêu thích, duyệt xem nội dung đề xuất cho riêng bạn và tận hưởng thư viện nội dung 4K lớn nhất. \n\n- Nếu bị lỗi mạng(thử lại) thì hãy vào Cài đặt/Ứng dụng/Tìm phần quyền Internet và cấp cho youtube để sử dụng."
 	},
@@ -31,7 +31,7 @@
 		"b_versionNameNew":"4.0-DinhLap",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Youtube_to_SmartTubeNexv4.0.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//YoutubeToSmartNext.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/YoutubeToSmartNext.png",
 		"f_packageName":"com.google.android.youtube.tv",
 		"g_note":"Youtube To SmartNext là cầu nối tìm kiếm kết quả Youtube chuyển sang cho các ứng dụng SmartYoutube.\n\nĐể sử dụng được hãy xoá Youtube Gốc và cài đặt Youtube To SmartNext.\n\nHỗ trợ cầu nối và độ yêu tiên khi bạn cài song song nhiều ứng dụng SmartYoutube:\ncom.liskovsoft.smarttubetv, com.liskovsoft.smarttubetv.beta,\ncom.teamsmart.videomanager.tv, com.redboxtv.smarttubetv,\ncom.sibsetru.smarttubetv.\n\nFaceBook nhà phát triển: https://www.facebook.com/DinhlapD.Lp"
 	},
@@ -40,7 +40,7 @@
 		"b_versionNameNew":"9.1.0.50493",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/YouTube_a5_v9.1.0.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//YouTubeA5.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/YouTubeA5.png",
 		"f_packageName":"com.cloudmosa.puffinTV.YouTube",
 		"g_note":"YouTubeA5 mod từ\"Puffin cho YouTube\"\nKHÔNG được liên kết với YouTube hoặc Google, Inc. Nó được phát triển bởi CloudMosa, Inc. - tác giả của Trình duyệt web Puffin. Puffin cho YouTube là phiên bản đặc biệt của trình duyệt Puffin được tối ưu hóa cho người dùng YouTube. Phương châm của nó là \"Tốt hơn cho Ít\" - một trải nghiệm người dùng tốt hơn để sử dụng ít dữ liệu hơn."
 	},
@@ -49,7 +49,7 @@
 		"b_versionNameNew":"Luôn là bản Stable mới nhất",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_stable.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SmartTube(Stable).png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/SmartTube(Stable).png",
 		"f_packageName":"com.teamsmart.videomanager.tv",
 		"g_note":"SmartTubeNext - Ứng dụng SmartYoutube miễn phí chặn quảng cáo xem video youtube trên Android TV Box.\n\nCác tính năng phát hành hiện tại:\n\nChạy trên Android 4.3 trở lên\nDuyệt qua Tin tức, Trò chơi, Âm nhạc\nDuyệt qua đăng ký, lịch sử, danh sách phát\nPhát video\nThích, Không thích hoặc Đăng ký cho video\nTìm kiếm video\nXem nội dung kênh đã đăng ký\nThay đổi các cài đặt khác nhau cho trình phát video\nXem trước hoạt ảnh cho video\nCác kênh Android TV và hỗ trợ tìm kiếm"
 	},
@@ -58,7 +58,7 @@
 		"b_versionNameNew":"Luôn là bản Beta mới nhất",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_beta.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SmartTube(Beta).png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/SmartTube(Beta).png",
 		"f_packageName":"com.liskovsoft.smarttubetv.beta",
 		"g_note":"SmartTubeNext - Ứng dụng SmartYoutube miễn phí chặn quảng cáo xem video youtube trên Android TV Box.\n\nCác tính năng phát hành hiện tại:\n\nChạy trên Android 4.3 trở lên\nDuyệt qua Tin tức, Trò chơi, Âm nhạc\nDuyệt qua đăng ký, lịch sử, danh sách phát\nPhát video\nThích, Không thích hoặc Đăng ký cho video\nTìm kiếm video\nXem nội dung kênh đã đăng ký\nThay đổi các cài đặt khác nhau cho trình phát video\nXem trước hoạt ảnh cho video\nCác kênh Android TV và hỗ trợ tìm kiếm"
 	},
@@ -67,7 +67,7 @@
 		"b_versionNameNew":"17.62",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/STubeNext_ststable_v17.62_r.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SmartTube(Stable).png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/SmartTube(Stable).png",
 		"f_packageName":"com.teamsmart.videomanager.tv",
 		"g_note":"SmartTubeNext v17.62 ổn định có thể dùng EA 43'\n\nCác tính năng phát hành hiện tại:\n\nChạy trên Android 4.3 trở lên\nDuyệt qua Tin tức, Trò chơi, Âm nhạc\nDuyệt qua đăng ký, lịch sử, danh sách phát\nPhát video\nThích, Không thích hoặc Đăng ký cho video\nTìm kiếm video\nXem nội dung kênh đã đăng ký\nThay đổi các cài đặt khác nhau cho trình phát video\nXem trước hoạt ảnh cho video\nCác kênh Android TV và hỗ trợ tìm kiếm"
 	},
@@ -76,7 +76,7 @@
 		"b_versionNameNew":"6.17.739",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/SmartYouTubeTV_6.17.739.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SmartYouTubeTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/SmartYouTubeTV.png",
 		"f_packageName":"com.liskovsoft.videomanager",
 		"g_note":"Phiên bản ổn định dành cho người dùng ngay sau khi cài đặt bạn sẽ thấy bốn trình khởi chạy khác nhau: 1080 Main, 1080 Alt, 4K Main và 4K Alt. Có thể có hiệu suất khác nhau tùy thuộc vào thiết bị. Hãy thử từng cái một cho đến khi bạn tìm thấy cái tốt nhất."
 	},
@@ -85,7 +85,7 @@
 		"b_versionNameNew":"1.12.02",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Youtubetvkids.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//Youtubetvkids.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Youtubetvkids.png",
 		"f_packageName":"com.google.android.youtube.tvkids",
 		"g_note":"Trải nghiệm xem video trực tuyến an toàn hơn cho trẻ\nChúng tôi nỗ lực rất nhiều để giữ cho các video trên YouTube Kids luôn có nội dung phù hợp với gia đình. Để bảo vệ những người dùng nhỏ tuổi nhất trên mạng, chúng tôi kết hợp các bộ lọc tự động do nhiều nhóm kỹ sư thiết kế, quy trình xem xét thủ công và ý kiến phản hồi từ chính các bậc cha mẹ. Tuy nhiên, không có hệ thống nào là hoàn hảo và các video không phù hợp có thể vẫn lọt qua hệ thống của chúng tôi.\n\n- Nếu bị lỗi mạng(thử lại) thì hãy vào Cài đặt/Ứng dụng/Tìm phần quyền Internet và cấp cho youtube để sử dụng."
 	},
@@ -94,16 +94,25 @@
 		"b_versionNameNew":"23.4.2-DEMO",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Kiki-23.4.2-PARTNER-DEMO.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//kiki.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/kiki.png",
 		"f_packageName":"ai.zalo.kiki.tv",
 		"g_note":"Mọi người dùng thử nếu có gì không ưng ý có thể nhắn tin cho admin, sẽ báo lại bên phát triển Kiki cải thiện.\nFB: https://www.facebook.com/DinhlapD.Lp\n\nKiki - Android TV là phiên bản hỗ trợ Kiki sử dụng trên TV thông minh và các TV Box chạy hệ điều hành Android TV. Tính năng điều khiển bằng giọng nói mang lại sự tiện ích khi xem TV. Chỉ bằng một câu nói đơn giản, người dùng có thể giao tiếp với trợ lý Kiki để mở kênh truyền hình, video trên youtube và nhiều tác vụ hữu ích khác.\nPhát triển bởi : by Zalo Group"
+	},
+	{
+		"a_name":"Cốc cốc TV Lite",
+		"b_versionNameNew":"1.6",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/CocCocTVLite_1.6.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tv_CocCoc_lite.png",
+		"f_packageName":"com.coccoc.trinhduyet_tvlite",
+		"g_note":"Trình duyệt cốc cốc cho androidTV"
 	},
 	{
 		"a_name":"DL Tivi",
 		"b_versionNameNew":"12.3.3",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/DLTivi_v12.3.3.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//banner_DLTivi.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/banner_DLTivi.png",
 		"f_packageName":"com.dinhlap.tivi",
 		"g_note":"DL Tivi là ứng dụng xem video, truyền hình yêu cầu sử dụng mạng dàng cho cả điện thoạt và TV.\n+Tìm kiếm bằng giọng nói.\n+ Lưu lại hai đường link danh sách kênh\n+ Tự động vào ngay kênh phát gần nhất lần trước.\n+ Giao diện dễ dùng : nhấn phím sang Trái hoặc phím sang Phải hiện danh sách  kênh, nhấn phím OK để mở Controller.\n+ Thay đổi tỉ lệ màn hình cho phù hợp.\n+ Điều khiển kênh bằng các phím số.\n+ Tính năng khởi động cùng thiết bị có thể không hoạt động trên thiết bị xiaomi.\n\nNhà phát triển: Đình Lập\nLiên hệ: https://www.facebook.com/DinhlapD.Lp"
 	},
@@ -112,7 +121,7 @@
 		"b_versionNameNew":"1.14",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/BeeTV_v1.14.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//beetv.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/beetv.png",
 		"f_packageName":"com.quangkv.beetv",
 		"g_note":"Hot BeeTV xem truyền hình, miễn phí.\nLưu ý: Chỉ hỗ trợ android 7 trở lên.\nNguồn : http://www.quangkv.com/"
 	},
@@ -121,7 +130,7 @@
 		"b_versionNameNew":"2.8.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/TiviMate_TV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//tivi_mate.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tivi_mate.jpg",
 		"f_packageName":"ar.tvplayer.tv",
 		"g_note":"Với TiviMate, bạn có thể xem các kênh truyền hình trực tiếp từ nhà cung cấp IPTV của mình trên các hộp giải mã Android.\n\nNhững đặc điểm chính:\n• Giao diện người dùng hiện đại được thiết kế cho màn hình lớn\n• Hỗ trợ cho nhiều danh sách phát\n• Cập nhật hướng dẫn truyền hình theo lịch trình\n• Kênh yêu thích\n• Bắt kịp\n• Tìm kiếm\n• và nhiều hơn nữa\n\nQUAN TRỌNG! TiviMate không cung cấp bất kỳ nguồn TV nào. Bạn cần thêm danh sách phát từ nhà cung cấp IPTV để có thể xem các kênh truyền hình trực tiếp.\nMới cập nhật link IPTV 2021 chất – sống không die:\nhttp://gg.gg/8zy29 (Thanh51 - Mình thích dùng list này.)\nhttp://gg.gg/fpt8800 (người dùng tự build)\nhttp://gg.gg/coocaa (xem eu-ro + wc trên các  kênh VTV cực chất)."
 	},
@@ -130,7 +139,7 @@
 		"b_versionNameNew":"3.1.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Monster.TV_v3.1.0.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//MonsterTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/MonsterTV.png",
 		"f_packageName":"com.quang.monstertv",
 		"g_note":"Monster TV là ứng dụng giải trí trực tuyến dành cho bạn!\n\nMonster TV giúp bạn xem hoàn toàn miễn phí với:\n+ Gần 200 kênh trong nước và quốc tế với chất lượng Full HD: siêu nhanh, siêu nét, siêu mượt, siêu ổn định\n+ Nhiều kênh trong nước vtv, htv, htvc, thể thao, bóng đá, kênh phim thuần việt\n+ Thể thao 24h, thể thao trong nước và quốc tế\n+ Kho phim ảnh lên tới hàng ngàn bộ phim hay và hấp dẫn, có hỗ trợ sub tiếng Việt\n+ Xem lại các chương trình tivi các kênh từ VTV1 đến VTV6 trong 2 ngày gần nhất (hôm nay và hôm qua)\n\nPhát triển ứng dụng: Dang Ngoc Quang"
 	},
@@ -139,7 +148,7 @@
 		"b_versionNameNew":"23032703",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/iMedia.23042303-Beta-release.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//iMedia.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/iMedia.png",
 		"f_packageName":"com.kt.apps.media.xemtv",
 		"g_note":"Ứng dụng iMedia là một ứng dụng miễn phí trên nền tảng Android TV, cho phép người dùng xem truyền hình và phát thanh phổ thông mà không cần phải trả bất kỳ khoản phí nào. Ứng dụng cũng không có quảng cáo, mang lại cho người dùng một trải nghiệm sử dụng không bị gián đoạn.\n\niMedia có giao diện đơn giản và dễ sử dụng, với các tính năng như chọn kênh truyền hình hoặc phát thanh yêu thích của bạn, tìm kiếm nhanh chóng..."
 	},
@@ -148,7 +157,7 @@
 		"b_versionNameNew":"3.8.1",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/SportTV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//ic_SportsTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/ic_SportsTV.png",
 		"f_packageName":"com.sports.tv",
 		"g_note":"Sport TV là ứng dụng xem truyền hình, bóng đá trực tuyến miễn phí trên Android TV Box, điện thoại và máy tính bảng Android. Với ứng dụng vSport TV bạn có thể xem được rất nhiều kênh tivi trong và ngoài nước với chất lượng tốt và đường truyền nhanh, ổn định. Bên cạnh đó vSport TV còn giúp bạn theo dõi các trận bóng đá trực tiếp ở tất cả các giải đấu hàng đầu thế giới.\nỨng dụng xem truyền hình miễn phí vSport TV giúp bạn có thể xem được rất nhiều kênh truyền hình, đầy đủ các kênh địa phương và quốc tế (HBO, Fox Sport, AXN, Cartoon Network, Fox Movies,..) với chất lượng HD.\n\nPhần Xem TV của vSport TV được chia thành các nhóm kênh: Nổi bật (kênh quốc tế), VTV, VTVCab – SCTV, VTC, HTV – HTVC, BTV, Kênh Tin tức, Kênh Địa phương."
 	},
@@ -157,7 +166,7 @@
 		"b_versionNameNew":"1.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VeboTV_v1.0.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//vebotv.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/vebotv.png",
 		"f_packageName":"tv.vebo.dev",
 		"g_note":"Tính năng Vebotv App - Xem trực tiếp bóng đá:\nTổng hợp hơn 1000 giải bóng đá ở 100 quốc gia trên thế giới.\nLivescores (tỷ số trực tiếp), lịch thi đấu, kết quả bóng đá, bảng xếp hạng…\nXem kết quả, lịch thi đấu.\nCó nhiều loại BXH bóng đá: Giải VĐ Quốc gia, cúp liên đoàn, cúp quốc gia, knock-out\nCó BXH bóng đá MỚI ngay sau khi trận đấu KẾT THÚC\n\nGiao diện thân thiện, dễ dàng sử dụng."
 	},
@@ -166,7 +175,7 @@
 		"b_versionNameNew":"1.66.164",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/BobaTV_v1.66.164.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//BoBaTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/BoBaTV.png",
 		"f_packageName":"com.vietigniter.boba",
 		"g_note":"Boba TV Ứng dụng xem phim HD online dành cho Android TV Box (Phiên bản nâng cấp của ứng dụng IMovies). Hỗ trợ xem phim HD, 3D ISO Bluray trên Android TV Box và Smart TV Android. Nếu bạn dùng cho điện thoại vui lòng tải ứng dụng Boba Phone để có trải nghiệm tốt hơn\n- Xem phim Full HD trên Android TV Box\n- Xem phim Bluray, ISO DTS trên Android Tv Box\n- Xem phim 3D ISO, 3D Bluray\n- Hỗ trợ điều khiển từ xa tivi bằng điện thoại thông qua ứng dụng Boba Phone"
 	},
@@ -175,7 +184,7 @@
 		"b_versionNameNew":"2.0.9",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/HDO_Box_AF_2.0.9_Mod_Banner.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//HDO_Box.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/HDO_Box.png",
 		"f_packageName":"com.hdobox",
 		"g_note":"HDO Box là một ứng dụng mà bạn có thể phát trực tuyến hàng ngàn bộ phim và giày truyền hình hoàn toàn miễn phí. Điều tốt nhất về HDO Box là giao diện người dùng. Thiết kế đáp ứng và điều hướng dễ dàng làm cho nó đứng đầu danh sách\n\nCác bộ phim và chương trình truyền hình được phân loại và hiển thị đẹp mắt trên màn hình chính. Nó có phần Xu hướng chứa các thể loại khác nhau như Hành động, Hài kịch, Khoa học viễn tưởng, Kinh dị, Bí ẩn, v.v. Tiêu đề hiển thị các thông tin khác như xếp hạng IMDB, Năm phát hành, Dàn diễn viên chính, v.v."
 	},
@@ -184,7 +193,7 @@
 		"b_versionNameNew":"9.4.9-androidtv",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VTVGoTV_9.4.9-androidtv.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//Vtv_go_banner.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Vtv_go_banner.png",
 		"f_packageName":"vn.vtv.vtvgotv",
 		"g_note":"VTVgo là hệ thống xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam cho phép khán giả VTV xem trực tiếp, xem lại, xem theo chủ đề mọi chương trình truyền hình cũng như thưởng thức kho video độc quyền lớn nhất Việt Nam trên nhiều lĩnh vực.\n\nCác tính năng chính:\n1. Kênh TV\n• Xem trực tuyến các kênh truyền hình Việt Nam: VTV1, VTV2, VTV3, VTV4, VTV5, VTV6, VTV7, VTV8, VTV9, VTV5 Tây Nguyên và VTV5 Tây Nam Bộ.\n• Xem trực tuyến các kênh truyền hình thiết yếu quốc gia và các kênh địa phương.\n• Xem lại các chương trình đã phát trong vòng 6 tháng.\n• Đặt lịch hẹn xem trong 7 ngày tương lai, đặt theo lịch phát sóng.\n2. Kênh Nội dung số:\n• Các kênh nội dung số chuyên đề do VTV sản xuất chuyên biệt cho nền tảng số VTV Go gồm các chương trình livestream, các playlist theo chủ đề...\n3. Kênh Tin Tức\n• Cập nhật nhanh nhất và liên tục các sự kiện trong ngày.\n• Tin video theo chuyên mục: Thời sự, Thể thao, Giải trí, Kinh tế, Thế giới,...\n• Xem tin video theo dòng sự kiện nổi bật.\n4. Kênh Video\n• Xem lại tất cả các chương trình đặc sắc của VTV.\n• Chọn xem theo chương trình cụ thể, bộ sưu tập, phim truyền hình.\nCác dòng máy chạy hệ điều hành Android 4.4 trở lên.\nLiên hệ:\nTrung tâm Sản xuất và phát triển Nội dung số Đài Truyền Hình Việt Nam - VTV Digital.\nĐịa chỉ: 43 Nguyễn Chí Thanh, Ba Đình, Hà Nội\nEmail: vtvgo@vtv.vn\nWebsite: https://vtvgo.vn"
 	},
@@ -193,7 +202,7 @@
 		"b_versionNameNew":"7.6.23",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/FPTPlayTV_7.6.23.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//banner_fptplay.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/banner_fptplay.jpg",
 		"f_packageName":"net.fptplay.ottbox",
 		"g_note":"Ứng dụng FPT Play for Android TV đa nền tảng với hàng trăm kênh truyền hình Việt Nam và quốc tế, hàng nghìn giờ phim truyện và show giải trí hấp dẫn. Giao diện hiện đại, thân thiện, tốc độ nhanh, ổn định, chất lượng chuẩn HD trên mọi nền tảng, FPT Play mang đến cho người dùng trải nghiệm giải trí trọn vẹn mọi lúc, mọi nơi.\n\nPhát sóng trực tiếp các giải thể thao hàng đầu thế giới như Ngoại hạng Anh, Seria A, cúp C1 (trên nhóm kênh K+), AFF, AFC…\n\nCác chương trình thiếu nhi đầy màu sắc và phong phú dành riêng cho bé yêu sẽ giúp bố mẹ an tâm hơn trong việc quản lý việc xem video trên thiết bị di động của trẻ. Chuyên mục Thể thao cập nhật đầy đủ tình hình thể thao trong nước và quốc tế.\n\nHãy cùng khám phá sự mới lạ và phong phú mỗi ngày trên FPT Play!\nMọi thông tin thắc mắc và góp ý vui lòng gửi về : SUPPORT@FPTPLAY.NET\nHotline: 19006600\nWebsite: https://fptplay.vn/\nFanpage: https://www.facebook.com/fptplay"
 	},
@@ -202,7 +211,7 @@
 		"b_versionNameNew":"6.20.3",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Weather_Live_pro.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//WeatherLive.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/WeatherLive.png",
 		"f_packageName":"com.apalon.weatherlive",
 		"g_note":"Thời tiết đôi khi rất khó dự đoán. Ứng dụng thời tiết chính xác này cho phép tìm hiểu dự báo thời tiết chi tiết trong 14 ngày (7 trong phiên bản miễn phí) mọi lúc mọi nơi, vào bất kỳ thời điểm nào trong ngày hoặc cho những ngày tiếp theo chỉ bằng cách nhấn vào các biểu tượng:\n- Nhiệt độ hiện tại và \"Cảm thấy thích\"\n- Trình theo dõi tia chớp\n- Tốc độ và hướng gió\n- Thông tin thời tiết về áp suất và lượng mưa\n- Thời gian bình minh / hoàng hôn\n- Radar thời tiết & bản đồ mưa\n- Tầm nhìn (điều kiện thời tiết để lái xe)\n- Cảnh báo thời tiết & thông báo tình trạng hiện tại\nvà dữ liệu thời tiết hữu ích khác kèm theo hình ảnh động và đồ họa trực tiếp."
 	},
@@ -211,7 +220,7 @@
 		"b_versionNameNew":"1.6.5",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Weather8-1.6.5VNOK.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//ThoiTietM8V1.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/ThoiTietM8V1.png",
 		"f_packageName":"pro.burgerz.miweather8",
 		"g_note":"Weather Mate (Weather M8) sử dụng chuột để xem nhiều hơn.\nCài đặt để lấy tiện ích thời tiết rất đẹp."
 	},
@@ -220,7 +229,7 @@
 		"b_versionNameNew":"2.0.12",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/WeatherM8_v2.0.12.ADS.RemovedOK.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//WeatherM8_v2.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/WeatherM8_v2.png",
 		"f_packageName":"pro.burgerz.miweather8",
 		"g_note":"Weather Mate (Weather M8) sử dụng chuột để xem nhiều hơn.\nCài đặt để lấy tiện ích thời tiết rất đẹp."
 	},
@@ -229,7 +238,7 @@
 		"b_versionNameNew":"1.3.26",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VTVcab_ON.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//VTVCab_ON.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/VTVCab_ON.png",
 		"f_packageName":"com.vtvcab.onTV",
 		"g_note":"VTVcab trân trọng ra mắt VTVcab ON – dịch vụ xem TRUYỀN HÌNH TRỰC TUYẾN đáng chú ý và nổi bật nhất hiện nay với hàng ngàn nội dung hấp dẫn:\n- Trực tiếp bóng đá, thể thao. Tổng hợp các giải đấu hàng đầu thế giới: Trực tiếp Ngoại Hạng Anh, La Liga, V.League, Bundesliga, Euro, Champions League, Cup Liên Đoàn Anh (độc quyền), Cúp Quốc gia Việt Nam (độc quyền), U23 Việt Nam, Vòng loại EURO, vòng loại World Cup; WTA Tennis - ATP tennis tour (độc quyền), … Cùng hàng trăm trận đấu hấp dẫn khác trên các nhóm kênh VTVcab ON\n- Hơn 200 kênh truyền hình phong phú, ấn tượng (VTV, VTC, SCTV, VTVcab, Box Movie, Today TV, Yeah 1, HTV, Dr.Fit, ANTV …)\n- Phim bom tấn, phim truyền hình, phim điện ảnh trong và ngoài nước đặc sắc\n- Chương trình giải trí hấp dẫn, an toàn cho trẻ nhỏ (kênh Cartoon Kids, Baby TV, Happy Kids …)\nHiện tại, bạn có thể cài đặt VTVcab ON trên tất cả các Smart TV: LG, SamSung, TCL, Sony, Toshiba, Panasonic, Asanzo, Sharp, Skyworth và các đầu thu Android như: Hi Media, Minix, Zidoo, Xiaomi, Egreat, Vibox, Kiwi, Kara, DVB T2, VTVcab ON.\nVTVcab ON khẳng định sẽ đem đến các chương trình hay nhất đến với giới trẻ, các em thiếu nhi và chất lượng phục vụ tốt nhất dành cho các gia đình Việt.\n\nLink fanpage: https://www.facebook.com/vtvcab.on.tructiep.bongda/?ref=br_rs\n\uD83D\uDC49 Tham gia ngay Nhóm: Cộng đồng người dùng VTVcab ON\nLink: https://www.facebook.com/groups/congdongVTVcabON/?source_id=446075809522689\nWebsite: http://vtvcab.vn/\nHotline: 1900 1515 (hỗ trợ online qua zalo, viber qua số điện thoại 0904678139)\nEmail: supportvod@vtvcab.vn "
 	},
@@ -238,7 +247,7 @@
 		"b_versionNameNew":"1.0.0.0915",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/EZVIZ_TV_1.0.0.0915.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//Ezviz_TV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Ezviz_TV.png",
 		"f_packageName":"com.ezviz.tv",
 		"g_note":"Các tính năng chính:\n- Xem luồng trực tiếp độ nét cao từ mọi nơi\n- Nhìn trong bóng tối với đèn hồng ngoại bật\n- Phát lại các video đã quay bằng CloudPlay hoặc thẻ SD\n- Nói chuyện qua âm thanh hai chiều\n- Nhận cảnh báo tức thì khi phát hiện chuyển động\n- Tùy chỉnh vùng phát hiện và độ nhạy\n- Đặt lịch để ghi lại những khoảnh khắc quan trọng\n- Chia sẻ thiết bị với bạn bè và gia đình"
 	},
@@ -247,7 +256,7 @@
 		"b_versionNameNew":"5.1.3.0320",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Hik-Connect_5.1.3.0320.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//HikConnect.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/HikConnect.png",
 		"f_packageName":"com.hikvision.hikconnect",
 		"g_note":"Phải dùng chuột !\nỨng dụng Hik-Connect được thiết kế để hoạt động với các thiết bị của Hikvision như DVR, NVR, Camera.\nTính năng chính:\n1. Giám sát trong thời gian thực bằng điều khiển PTZ\n2. Phát lại video\n3. Hệ thống liên lạc âm thanh hai chiều\n4. Thông báo cảnh báo tức thì bằng hình ảnh và video\n5. Trả lời cuộc gọi từ chuông cửa/thiết bị liên lạc video\n6. Bảng điều khiển an ninh im lặng từ xa\n7. Chia sẻ thiết bị cho người khác với quyền hạn chế\n8. Đăng nhập bằng vân tay thuận tiện và an toàn"
 	},
@@ -256,7 +265,7 @@
 		"b_versionNameNew":"3.100.000",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Imou_3.100.000.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//imou.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/imou.png",
 		"f_packageName":"com.mm.android.easy4ip",
 		"g_note":"Phải dùng chuột !\nImou là một ứng dụng bảo mật thông minh cho phép bạn chăm sóc ngôi nhà của mình.\n1. Tối ưu hóa quy trình thêm thiết bị.\n2. Chia sẻ thiết bị hiện hỗ trợ chọn quyền.\n3. Hỗ trợ hiển thị thông tin sản phẩm trên trang khởi động (đối với một số vùng).\n4. Cell Pro hiện hỗ trợ đặt lịch trình cánh tay.\n5. Hỗ trợ các chức năng liên quan cho Ranger IQ sắp ra mắt.\n6. Hỗ trợ chọn dịch vụ HUAWEI Push (dành cho điện thoại HUAWEI).\n7. Đã sửa các lỗi nhỏ khác."
 	},
@@ -265,16 +274,16 @@
 		"b_versionNameNew":"1.2.90000",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/ImouHPO_1.2.90000.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//imou.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/imou.png",
 		"f_packageName":"com.imoulife.hpo",
 		"g_note":"Mod dùng điều khiển bởi HPO !\nImou là một ứng dụng bảo mật thông minh cho phép bạn chăm sóc ngôi nhà của mình.\n1. Tối ưu hóa quy trình thêm thiết bị.\n2. Chia sẻ thiết bị hiện hỗ trợ chọn quyền.\n3. Hỗ trợ hiển thị thông tin sản phẩm trên trang khởi động (đối với một số vùng).\n4. Cell Pro hiện hỗ trợ đặt lịch trình cánh tay.\n5. Hỗ trợ các chức năng liên quan cho Ranger IQ sắp ra mắt.\n6. Hỗ trợ chọn dịch vụ HUAWEI Push (dành cho điện thoại HUAWEI).\n7. Đã sửa các lỗi nhỏ khác."
 	},
 	{
 		"a_name":"K+ Android 7.0 +",
-		"b_versionNameNew":"10.0.1",
+		"b_versionNameNew":"10.1",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/K+LiveTV_10.0.1.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//bannerK.png",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/K+_v10.1.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/bannerK.png",
 		"f_packageName":"com.irdeto.kplus",
 		"g_note":"Android 7 trở lên mới sử dụng được.\nNếu cài không được thì gỡ bản K+ trong máy ra rồi cài lại. \nỨng dụng K+ hoàn toàn mới sẽ mang tới cho người dùng trải nghiệm giải trí trọn vẹn với các kênh truyền hình trực tuyến, kho nội dung VOD độc quyền hấp dẫn, và đặc biệt là các gói thuê bao đa dạng tùy theo sở thích của khán giả yêu K+.\n\nNỘI DUNG ĐẶC SẮC: Ứng dụng K+ mang đến vũ trụ giải trí của riêng bạn:\n\n* Hơn 100 kênh truyền hình với hơn 20 kênh chất lượng HD\n* Nhiều nội dung miễn phí đặc sắc\n* Trọn vẹn giải Ngoại hạng Anh sôi động cùng UEFA Champions League, Europa League độc quyền, phát sóng trực tiếp cùng các chương trình đồng hành độc đáo\n* Hàng ngàn nội dung phim điện ảnh và truyền hình Châu Á và Quốc tế nổi tiếng\n* Các phim điện ảnh Việt Nam phát sóng sớm nhất trên truyền hình sau chiếu rạp\n* Kho VOD với hàng ngàn giờ phim, thể thao, khoa học, thiếu nhi, giải trí… xem mọi nơi mọi lúc\n* Thế giới thể thao sống động với các giải Quần vợt ATP, Golf PGA, đua xe Indy Cars…\n\nTÍNH NĂNG HẤP DẪN:\n\n* Xem TV trực tiếp hơn 100 kênh truyền hình quốc tế và trong nước, bao gồm đầy đủ 4 kênh K+ HD\n* Tính năng nhắc lịch cho các chương trình sắp phát sóng và tính năng xem lại giúp bạn không bao giờ bỏ lỡ những chương trình tivi yêu thích.\n* Kho Video theo yêu cầu (VOD): hàng ngàn giờ phim, thể thao, khoa học, thiếu nhi, show giải trí…\n* Xem trước lịch phát sóng trong 7 ngày\n* Quản lý tài khoản: dễ dàng kiểm tra thời hạn thuê bao để có thể gia hạn kịp thời, thảnh thơi giải trí\n* Xem đa nền tảng trên điện thoại di động và máy tính bảng với giao diện thân thiện, dễ sử dụng\n\nỨng dụng K+ được cung cấp MIỄN PHÍ cho thuê bao đăng ký gói truyền hình vệ tinh (lắp chảo thu) hoặc gói K+ TV BOX."
 	},
@@ -283,7 +292,7 @@
 		"b_versionNameNew":"3.16.6 build 5382",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Netflix_V3.16.6.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//netflix.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/netflix.jpg",
 		"f_packageName":"com.netflix.mediaclient",
 		"g_note":"Lưu ý là bản mobile cần dùng chuột \n\nBạn đang tìm những bộ phim và chương trình truyền hình đang gây sốt nhất trên thế giới? Chúng đều có tại Netflix.\n\nTại Netflix, chúng tôi có những loạt phim, bộ phim, phim tài liệu và chương trình hài độc thoại đã giành nhiều giải thưởng. Chỉ cần có thiết bị di động là bạn sẽ có thể xem Netflix trong lúc di chuyển, đi làm hay nghỉ ngơi.\n\nNhững điều bạn sẽ yêu thích trên Netflix:\n\n• Chúng tôi liên tục bổ sung phim và chương trình truyền hình mới. Hãy duyệt xem video mới hoặc tìm video mà bạn yêu thích và phát trực tuyến ngay trên thiết bị của bạn.\n• Bạn càng xem nhiều thì Netflix càng có thể đề xuất cho bạn những bộ phim và chương trình truyền hình mà bạn sẽ thích.\n• Bạn có thể tạo tới 5 hồ sơ trong một tài khoản. Hồ sơ giúp các thành viên trong gia đình của bạn tận hưởng Netflix theo sở thích cá nhân của họ.\n• Giúp trẻ tận hưởng Netflix một cách an toàn nhờ nội dung giải trí phù hợp với gia đình.\n• Xem nhanh các đoạn trích từ các phim và loạt phim của chúng tôi, đồng thời nhận thông báo về các tập mới và video mới phát hành.\n• Tiết kiệm dữ liệu của bạn bằng cách tải video xuống thiết bị di động và xem ngoại tuyến ở bất kỳ đâu.\n\nĐể xem điều khoản và điều kiện đầy đủ, hãy vào http://www.netflix.com/TermsOfUse.\nĐể xem chính sách quyền riêng tư, hãy vào https://signup.netflix.com/PrivacyPolicy."
 	},
@@ -292,7 +301,7 @@
 		"b_versionNameNew":"4.16.1 build 200147",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Netflix_V4.16.1.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//NetflixMobile.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/NetflixMobile.png",
 		"f_packageName":"com.netflix.mediaclient",
 		"g_note":"Lưu ý là bản mobile cần dùng chuột\n\nTại Netflix, chúng tôi có những loạt phim, bộ phim, phim tài liệu và chương trình hài độc thoại đã giành nhiều giải thưởng. Chỉ cần có thiết bị di động là bạn sẽ có thể xem Netflix trong lúc di chuyển, đi làm hay nghỉ ngơi.\n\nNhững điều bạn sẽ yêu thích trên Netflix:\n\n• Chúng tôi liên tục bổ sung phim và chương trình truyền hình mới. Hãy duyệt xem video mới hoặc tìm video mà bạn yêu thích và phát trực tuyến ngay trên thiết bị của bạn.\n• Bạn càng xem nhiều thì Netflix càng có thể đề xuất cho bạn những bộ phim và chương trình truyền hình mà bạn sẽ thích.\n• Bạn có thể tạo tới 5 hồ sơ trong một tài khoản. Hồ sơ giúp các thành viên trong gia đình của bạn tận hưởng Netflix theo sở thích cá nhân của họ.\n• Giúp trẻ tận hưởng Netflix một cách an toàn nhờ nội dung giải trí phù hợp với gia đình.\n• Xem nhanh các đoạn trích từ các phim và loạt phim của chúng tôi, đồng thời nhận thông báo về các tập mới và video mới phát hành.\n• Tiết kiệm dữ liệu của bạn bằng cách tải video xuống thiết bị di động và xem ngoại tuyến ở bất kỳ đâu.\n\nĐể xem điều khoản và điều kiện đầy đủ, hãy vào http://www.netflix.com/TermsOfUse.\nĐể xem chính sách quyền riêng tư, hãy vào https://signup.netflix.com/PrivacyPolicy."
 	},
@@ -301,7 +310,7 @@
 		"b_versionNameNew":"7.84.1 build 28 35243",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Netflix_v7.84.1.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//NetflixMobile.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/NetflixMobile.png",
 		"f_packageName":"com.netflix.mediaclient",
 		"g_note":"Lưu ý là bản mobile cần dùng chuột \n\nBạn đang tìm những bộ phim và chương trình truyền hình đang gây sốt nhất trên thế giới? Chúng đều có tại Netflix.\n\nTại Netflix, chúng tôi có những loạt phim, bộ phim, phim tài liệu và chương trình hài độc thoại đã giành nhiều giải thưởng. Chỉ cần có thiết bị di động là bạn sẽ có thể xem Netflix trong lúc di chuyển, đi làm hay nghỉ ngơi.\n\nNhững điều bạn sẽ yêu thích trên Netflix:\n\n• Chúng tôi liên tục bổ sung phim và chương trình truyền hình mới. Hãy duyệt xem video mới hoặc tìm video mà bạn yêu thích và phát trực tuyến ngay trên thiết bị của bạn.\n• Bạn càng xem nhiều thì Netflix càng có thể đề xuất cho bạn những bộ phim và chương trình truyền hình mà bạn sẽ thích.\n• Bạn có thể tạo tới 5 hồ sơ trong một tài khoản. Hồ sơ giúp các thành viên trong gia đình của bạn tận hưởng Netflix theo sở thích cá nhân của họ.\n• Giúp trẻ tận hưởng Netflix một cách an toàn nhờ nội dung giải trí phù hợp với gia đình.\n• Xem nhanh các đoạn trích từ các phim và loạt phim của chúng tôi, đồng thời nhận thông báo về các tập mới và video mới phát hành.\n• Tiết kiệm dữ liệu của bạn bằng cách tải video xuống thiết bị di động và xem ngoại tuyến ở bất kỳ đâu.\n\nĐể xem điều khoản và điều kiện đầy đủ, hãy vào http://www.netflix.com/TermsOfUse.\nĐể xem chính sách quyền riêng tư, hãy vào https://signup.netflix.com/PrivacyPolicy."
 	},
@@ -310,7 +319,7 @@
 		"b_versionNameNew":"2.0 build 295",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/NetflixTV_v3_L3.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//netflix.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/netflix.jpg",
 		"f_packageName":"com.netflix.ninja",
 		"g_note":"Netflix TV mod trên rom ATV \n\nBạn đang tìm những bộ phim và chương trình truyền hình đang gây sốt nhất trên thế giới? Chúng đều có tại Netflix.\n\nTại Netflix, chúng tôi có những loạt phim, bộ phim, phim tài liệu và chương trình hài độc thoại đã giành nhiều giải thưởng. Chỉ cần có thiết bị di động là bạn sẽ có thể xem Netflix trong lúc di chuyển, đi làm hay nghỉ ngơi.\n\nNhững điều bạn sẽ yêu thích trên Netflix:\n\n• Chúng tôi liên tục bổ sung phim và chương trình truyền hình mới. Hãy duyệt xem video mới hoặc tìm video mà bạn yêu thích và phát trực tuyến ngay trên thiết bị của bạn.\n• Bạn càng xem nhiều thì Netflix càng có thể đề xuất cho bạn những bộ phim và chương trình truyền hình mà bạn sẽ thích.\n• Bạn có thể tạo tới 5 hồ sơ trong một tài khoản. Hồ sơ giúp các thành viên trong gia đình của bạn tận hưởng Netflix theo sở thích cá nhân của họ.\n• Giúp trẻ tận hưởng Netflix một cách an toàn nhờ nội dung giải trí phù hợp với gia đình.\n• Xem nhanh các đoạn trích từ các phim và loạt phim của chúng tôi, đồng thời nhận thông báo về các tập mới và video mới phát hành.\n• Tiết kiệm dữ liệu của bạn bằng cách tải video xuống thiết bị di động và xem ngoại tuyến ở bất kỳ đâu.\n\nĐể xem điều khoản và điều kiện đầy đủ, hãy vào http://www.netflix.com/TermsOfUse.\nĐể xem chính sách quyền riêng tư, hãy vào https://signup.netflix.com/PrivacyPolicy."
 	},
@@ -319,7 +328,7 @@
 		"b_versionNameNew":"11.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/ClipTVforSmart TV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//ClipTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/ClipTV.png",
 		"f_packageName":"com.vgbm.clip.tv",
 		"g_note":"Mô tả của ClipTV for Smart TV.\nClip TV – Truyền hình internet là ứng dụng giải trí đa nền tảng với 100% nội dung có bản quyền, được phát triển riêng cho người dùng sử dụng các dòng Smart TV Android. Ngay lúc này, hãy tải ngay ứng dụng và tận hưởng 30 trải nghiệm không giới hạn nhé!\n\nỨng dụng tương thích với hầu hết các thiết bị Android TV Sony, Android TV LG, Android TV Asanzo, Android TV TCL… và các thiết bị sử dụng hệ điều hành Android khác.\n\n1. Kho nội dung phong phú\n*Xem tivi trực tuyến\n• Hơn 100 kênh truyền hình trong và ngoài nước. Trong đó có 20 kênh chất lượng hình ảnh chuẩn HD.\n• Cách hiển thị kênh, chia nhóm kênh dễ dàng thay đổi theo thói quen của người dùng\n\n*Kho phim VOD hấp dẫn\n• MỚI CẬP NHẬT\no Tính năng “PHIM HAY MỖI NGÀY”: Các phim hay được ban biên tập lựa chọn, cập nhật và đề xuất đến người xem mỗi ngày với các chủ đề Phim hành động, phim ma và kinh dị, phim hài hước, phim võ thuật Hongkong, phim chiếu rạp Việt.\no Kho phim HOLLYWOOD, kho phim TVB mới và vô cùng hấp dẫn.\no 100+ phim bộ hot, phim Việt chiếu rạp: 4 năm 2 chàng 1 tình yêu, Chung cư ma, Kungfu phở, Vẽ đường cho yêu chạy, Quả tim máu, Cưới chạy, Lạc giới,…\n• Hơn 3000 giờ phim bộ, phim lẻ bom tấn hấp dẫn và phong phú với đầy đủ thể loại như: phim chiếu rạp Âu Mỹ, phim Việt chiếu rạp, phim hài, kinh dị, tâm lý, võ thuật,…\n• Kho nội dung thiếu nhi, hấp dẫn với đầy đủ các nội dung: hoạt hình, khoa giáo, cộng đồng…\n• Chương trình giải trí cập nhật liên tục, mới lạ với đầy đủ nội dung như Hài, TV Show, Game show, ca nhạc, cải lương…\n• Các chương trình thể thao đỉnh cao\n• Các nội dung độc quyền cung cấp cho người dùng\no Phim tự sản xuất."
 	},
@@ -328,7 +337,7 @@
 		"b_versionNameNew":"20.06.01",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/zingmp3TVmod.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//zing_mp3_tv.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/zing_mp3_tv.jpg",
 		"f_packageName":"vng.zing.mp3",
 		"g_note":"Zing MP3 phiên bản dành cho Android TV và Android Box\n\nZing MP3 là ứng dụng nghe nhạc miễn phí hàng đầu Việt Nam. Với kho nhạc chất lượng cao đồ sộ từ http://mp3.zing.vn bạn sẽ có trải nghiệm âm nhạc tuyệt vời nhất trên thiết bị di động của mình.\nCác tính năng nổi bật:\n- Giao diện được thiết kế phù hợp với màn hình TV\n- Xem video chất lượng cao với nhiều độ phân giải khác nhau từ 480p đến 1080p\n- Hiển thị đầy đủ thông tin bài hát như tên album, hình album, tên ca sỹ\n- Nghe nhạc online chất lượng cao (320kbps và lossless)\n- Quản lý bài hát, playlist, yêu thích… như trên website mp3.zing.vn\n\nĐiều khoản sử dụng: https://zingmp3.vn/tos.html\nChính sách bảo mật: https://zingmp3.vn/privacy.html"
 	},
@@ -337,7 +346,7 @@
 		"b_versionNameNew":"1.59.3",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/SpotifyADS.Removed.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//Spotify.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Spotify.png",
 		"f_packageName":"com.spotify.tv.android",
 		"g_note":"Spotify cho Android TV là ứng dụng Spotify chính thức dành cho Android TV cho phép bạn thưởng thức tất cả âm nhạc có trong ứng dụng này bằng TV của bạn. Bạn có thể nghe hàng nghìn nghệ sĩ từ khắp nơi trên thế giới, thưởng thức danh sách phát được cá nhân hóa của mình và về cơ bản làm những điều tương tự như bạn sẽ làm bằng ứng dụng dành cho thiết bị di động hoặc máy tính để bàn của họ.\n\nSpotify cho Android TV là một ứng dụng thực sự thú vị cho bất kỳ ai sở hữu Android TV vì bạn có thể thưởng thức những bản nhạc hay nhất một cách thoải mái nhất. Tất cả những gì bạn phải làm là sử dụng điều khiển từ xa để phát danh sách phát yêu thích hoặc tăng hoặc giảm âm lượng."
 	},
@@ -346,7 +355,7 @@
 		"b_versionNameNew":"2.0.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/vtv_giaitri_TV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//vtv_giaitri_TV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/vtv_giaitri_TV.png",
 		"f_packageName":"vtv.smart.tv",
 		"g_note":"VTV Giải Trí là ứng dụng cung cấp các chương trình giải trí đặc sắc nhất của VTV\n\nVTV Giải Trí là ứng dụng cung cấp các chương trình giải trí đặc sắc nhất của VTV bao gồm phim truyện truyền hình dài tập, phim ngắn, các chương trình giải trí, tv shows..\nNhằm thoả mãn nhu cầu giải trí của tất cả mọi người, VTV Giải Trí sẽ liên tục cập nhật những chương trình đặc sắc nhất của VTV mỗi ngày. Sử dụng nền tảng công nghệ 4.0 mới nhất, tốc độ nhanh, ổn định, chất lượng chuẩn HD trên mọi nền tảng. Thiết kế theo xu thế tối giản các thao tác lướt, trượt, cuộn nên không còn sử dụng nhiều những cú click chuột. Điểm cộng là phong cách thiết kế phẳng tạo cảm nhận hiện đại, nhẹ nhàng, tinh tế hơn cho website nhờ sử dụng màu sắc trong sáng, đường nét thanh mảnh, tối giản đi sâu tập trung vào làm nổi bật nội dung trọng điểm của ứng dụng, lược bỏ các chi tiết thừa. VTV Giải Trí tự tin mang đến cho người xem một trải nghiệm giải trí trọn vẹn mọi lúc, mọi nơi trên mọi thiết bị điện tử.\nEmail: android@vtvgiaitri.vn"
 	},
@@ -355,7 +364,7 @@
 		"b_versionNameNew":"1.3.0.40009",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/WeTV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//WeTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/WeTV.png",
 		"f_packageName":"com.ktcp.osvideo",
 		"g_note":"Ứng dụng giải trí với kho phim ảnh, chương trình giải trí châu Á đặc sắc! WeTV đem đến những nội dung độc quyền dành cho bạn với trải nghiệm xem phim chất lượng.\nTính năng mới dành cho bạn:\nMục lục: Phim truyền hình, Phim lẻ và Chương trình giải trí được sắp xếp vào những trang khác nhau giúp bạn dễ dàng tìm kiếm nội dung theo sở thích.\nTiếp tục theo dõi tập phim bạn bỏ dở! Chúng tôi ghi nhớ thời điểm của tập phim và tiếp tục phát sóng cho bạn.\nChất lượng video: Chọn lựa chất lượng video theo nhu cầu của bạn! Từ 360P đến 1080P, bạn có thể tùy chỉnh chất lượng video phù hợp với dữ liệu di động hoặc đường truyền mạng của mình.\nPhụ đề: Thỏa sức thay đổi ngôn ngữ theo ý muốn với nhiều lựa chọn ngôn ngữ cho phụ đề.\nĐiều khiển màn hình: Thao tác ngón tay lên và xuống để chỉnh âm lượng và ánh sáng màn hình / Lướt ngón tay trái và phải để tua lại và tua nhanh video.\nMạng xã hội chính thức của WeTV Việt Nam:\nFacebook: https://www.facebook.com/WeTVVN/\nInstagram: https://www.instagram.com/wetvvietnam/"
 	},
@@ -364,7 +373,7 @@
 		"b_versionNameNew":"11.9.10",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/TikTokTV_11.9.10.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//tiktok_tv.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tiktok_tv.jpg",
 		"f_packageName":"com.tiktok.tv",
 		"g_note":"TikTok là mạng xã hội cực HOT về video nơi mọi người chia sẻ các clip ngắn được truyền cảm hứng bằng âm nhạc. Bất kể là nhảy, múa, phong cách tự do hay biểu diễn tài năng, người dùng được khuyến khích để cho trí tưởng tượng bay cao bay xa và mặc sức thể hiện cá tính của mình. Được thiết kế cho thế hệ người trẻ yêu thích âm nhạc và sáng tạo, TikTok cho phép người dùng dễ dàng và nhanh chóng tạo các video ngắn độc đáo để chia sẻ với bạn bè và giới trẻ trên toàn thế giới. TikTok là chuẩn mực mạng xã hội video mới cho giới trẻ năng động sáng tạo. Chúng tôi nỗ lực giúp các bộ óc sáng tạo có thể trở thành một phần của cuộc cách mạng nội dung.\n\n[Chất lượng sắc nét]\nTải về ngay lập tức, giao diện trơn tru và không giật lag. \nMọi chi tiết được hiển thị với chất lượng hoàn hảo. \n\n[Studio di động]\nSự kết hợp hoàn hảo giữa trí thông minh nhân tạo và tính năng ghi hình. \nTính năng đồng bộ giai điệu, các hiệu ứng đặc biệt và công nghệ tiên tiến. \nHô biến chiếc điện thoại của bạn thành một studio tại gia đầy sáng tạo!"
 	},
@@ -373,7 +382,7 @@
 		"b_versionNameNew":"4.27.60",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/XploreFileManager.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//XploreFileManager.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/XploreFileManager.png",
 		"f_packageName":"com.lonelycatgames.Xplore",
 		"g_note":"Hướng dẫn sử dụng: www.lonelycatgames.com/docs/xplore\n\nĐiểm nổi bật:\n\n- Chế độ xem dạng cây hai ngăn\n- Root, FTP, SMB1 / SMB2, Sqlite, Zip, Rar, 7zip, DLNA / UPnP explorer\n- Bản đồ đĩa - xem tệp nào chiếm nhiều dung lượng nhất trên đĩa của bạn - http://bit.ly/xp-disk-map\n- Quyền truy cập bộ nhớ đám mây: Google Drive, OneDrive, Mega.co, Dropbox, Yandex.disk, ОБЛАКО.mail.ru, Webdav và những người khác\n- Truyền tệp SSH (SFTP) và SSH Shell - http://bit.ly/xp-sftp ***\n- Máy nghe nhạc ***\n- Trình quản lý ứng dụng\n- USB OTG\n- Trình xem PDF\n- Chia sẻ tệp WiFi *** - http://bit.ly/xp-wifi-share\n- Quản lý tệp từ trình duyệt web trên PC *** - http://bit.ly/xp-wifi-web\n- Thư mục yêu thích\n- Trình xem tích hợp cho hình ảnh, âm thanh, văn bản\n- Trình phát video có phụ đề ***\n- Đổi tên hàng loạt\n- Trình xem hex"
 	},
@@ -382,7 +391,7 @@
 		"b_versionNameNew":"5.1.3",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/NhacCuaTuiTV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//NhacCuaTuiTV.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/NhacCuaTuiTV.jpg",
 		"f_packageName":"vn.nhaccuatui.tv",
 		"g_note":"NhacCuaTui TV \nYêu cầu: TV / Box\nTổng quan: NhacCuaTui TV là ứng dụng nghe nhạc và xem video trực tuyến hoàn toàn miễn phí trên TV. Với hàng triệu bài hát, video chọn lọc được cập nhật liên tục, giúp bạn dễ dàng tìm kiếm những bài hát mà mình yêu thích. Thỏa sức lưu trữ kho nhạc riêng không giới hạn, hơn thế nữa bạn có thể tận hưởng âm nhạc mọi lúc mọi nơi với tài khoản nghe nhạc được đồng bộ trên điện thoại, TV và Web.\n\nMọi ý kiến, đóng góp cho ứng dụng, các bạn có thể liên lạc địa chỉ email support@nct.vn, rất mong nhận được nhiều phản hồi của các bạn để ứng dụng NhacCuaTui ngày một tốt hơn.\n\nĐể biết thêm thông tin về Bảo mật và Điều khoản sử dụng NhacCuaTui, vui lòng truy cập:\nhttp://stc.nct.nixcdn.com/static_v8/generals/Chinh_sach_quyen_SHTT.zip\nhttp://www.nhaccuatui.com/thoa_thuan_su_dung.html"
 	},
@@ -391,7 +400,7 @@
 		"b_versionNameNew":"2.0.5",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/TV360SmartTV_2.0.5.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//TV360.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/TV360.png",
 		"f_packageName":"com.viettel.tv360.tv",
 		"g_note":"Tất cả đều có trên ứng dụng TV360:\n• Gần 200 kênh truyền hình K+, VTV, HTV, VTVCab, VTC, kênh nước ngoài như Fox Movies, Box Movies, Hollywood … và các đài địa phương.\n• Trực tiếp bóng đá Premier League, Champion League, Europa League, SeaGame, AFF Suzuki Cup, V – League, Cúp Quốc Gia, LaLiga, Bundesliga và nhiều giải đấu khác.\n• Kho Phim Truyện HD và Video giải trí phong phú\n• Xem không cần Wifi, sử dụng trên Data di động của Viettel\n• Tải về miễn phí, dễ dàng sử dụng để xem Tivi, chương trình truyền hình và phim truyện …\n\nSử dụng trên tất cả các thiết bị điện thoại, máy tính bảng, laptop, smartTV. Đặc biệt, bạn có thể xem cước Data 4G Viettel trên điện thoại trong lúc di chuyển trên tàu, xe khi đi chơi, đi du lịch\n\nĐiều bạn sẽ thích về TV360:\n• Hàng nghìn kênh truyền hình, phim truyện, video giải trí miễn phí\n• Dễ dàng sử dụng, xem nội dung miễn phí không cần đăng nhập\n• Giá cước rẻ, phù hợp với kho nội dung lớn và chính sách ưu đãi miễn cước Data 4G tốc độ cao\n• Càng xem nhiều, TV360 càng đề xuất tốt hơn các chương trình truyền hình và phim bạn yêu thích.\n• Tạo tối đa 05 profile cung cấp cho các thành viên gia đình, bạn bè cùng sử dụng, Tv360 cá nhân hóa nội dung yêu thích theo từng profile.\n• An toàn cho trẻ em sử dụng với chương trình giải trí thân thiện phù hợp theo độ tuổi.\n• Trải nghiệm liền mạch kết nối với tất cả thiết bị khi ở ngoài trời và trong nhà.\n• Chất lượng siêu nét, tốc độ nhanh dù xem bằng Wifi hay Data 4G.\n• Tải xuống thiết bị di động của bạn và xem ngoại tuyến, dù bạn ở đâu.\n\nTrang chủ: https://tv360.vn\nFanpage: https://www.facebook.com/tv360\nTổng đài chăm sóc khách hàng: 198 (miễn phí)"
 	},
@@ -400,7 +409,7 @@
 		"b_versionNameNew":"3.9.21",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Galaxy.Play.v.3.9.21.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//GalaxyPlay.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/GalaxyPlay.png",
 		"f_packageName":"movies.fimplus.vn.andtv",
 		"g_note":"Galaxy Play mod không cập nhật bởi Đình Lập từ phiên bản 3.9.2\n\nGalaxy Play là Dịch vụ giải trí Online số 1 Việt Nam với thư viện phim bản quyền lớn nhất từ trước đến nay. Bạn sẽ luôn mãn nhãn khi hưởng đặc quyền thưởng thức sớm nhất tại Galaxy Play các phim Việt chiếu rạp có doanh thu đứng đầu mọi thời đại như “Cua Lại Vợ Bầu”, \"Mắt Biếc”, “Gái Già Lắm Chiêu”, \"Chị Trợ Lý Của Anh\"... Bên cạnh đó, hơn 5.000 phim Hollywood bom tấn và phim châu Á đặc sắc sẽ khiến bạn không thể rời khỏi màn hình đầy cuốn hút. Ngoài ra, Galaxy Play còn cung cấp hơn 8.000 giờ phim bộ tuyển chọn và 500 giờ phim thiếu nhi hấp dẫn đầy vui nhộn, giúp cả gia đình bạn có thời gian giải trí thoải mái nhất.\n"
 	},
@@ -409,7 +418,7 @@
 		"b_versionNameNew":"1.0.2",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/PhimBo_v1.0.2.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//PhimBo.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/PhimBo.png",
 		"f_packageName":"app.phimbo.tvapp",
 		"g_note":"Xem phim TVB miễn phí. Xem phim bộ Hàn Quốc, Trung Quốc online chất lượng HD.\n\n* Chúng tôi rất vui vì bạn đã quyết định sử dụng Phimbo.app, hy vọng bạn sẽ thích ứng dụng này. Hiện tại kho phim của Phimbo.app đã có hơn 1000 phim và vẫn tiếp tục tăng lên.\n\n* Giao diện đẹp và dễ sử dụng.\n\n* Khám phá những tính năng:\n- Xem phim miễn phí hoàn toàn, hầu như không có quảng cáo\n- Duyệt phim theo thể loại yêu thích\n- Duyệt phim theo quốc gia (Phim Hàn Quốc, Phim Hồng Kông)\n- Xây dựng kho phim yêu thích\n- Chất lượng phim HD, đường truyền ổn định"
 	},
@@ -418,7 +427,7 @@
 		"b_versionNameNew":"1.8.6",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/tvbro1.8.6.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//tvBro.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tvBro.png",
 		"f_packageName":"com.phlox.tvwebbrowser",
 		"g_note":"Trình duyệt web được tối ưu hóa để sử dụng với điều khiển từ xa của TV.\nĐặc trưng:\n- làm việc với điều khiển TV\n- hỗ trợ tab và dấu trang\n- hỗ trợ tìm kiếm bằng giọng nói\n- chuyển đổi hỗ trợ tác nhân người dùng\n- sử dụng công cụ kết xuất web nội trang Android (dựa trên WebKit / Blink)\n- trình quản lý tải xuống tích hợp sẵn\n- lịch sử duyệt web\n- phím tắt\n\nBây giờ nguồn mở:\nhttps://github.com/truefedex/tv-bro"
 	},
@@ -427,7 +436,7 @@
 		"b_versionNameNew":"4.7.1.Phaptx5mod",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/FireFoxTV.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//Firefox.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Firefox.png",
 		"f_packageName":"org.mozilla.tv.firefox",
 		"g_note":"Mô tả của Trình duyệt Firefox: riêng tư\nGiới thiệu phiên bản mới nhất của Firefox dành cho trình duyệt Android — Firefox Daylight. Phiên bản Firefox này được thiết kế lại với nhiều thay đổi để chạy nhanh hơn, dễ sử dụng, tùy chỉnh được và riêng tư. Trình duyệt Firefox có trình Bảo vệ Theo dõi Tăng cường bật mặc định để chặn hàng ngàn các phần mềm theo dõi quảng cáo và malware — tạo cho bạn trải nghiệm an toàn và nhanh hơn gấp nhiều lần. Firefox còn là trình duyệt chính yếu duy nhất được hỗ trợ bởi cuộc đấu tranh phi lợi nhuận nhằm mang lại sự cởi mở, minh bạch và kiểm soát đời sống trực tuyến của bạn tốt hơn. Tải trình duyệt Firefox cho Android hôm nay và giữ rộng cửa cho Internet vào tương lai.\n\nNHANH. RIÊNG TƯ. AN TOÀN.\nTrình duyệt Firefox cho Android đem đến cho bạn sự bảo vệ riêng tư dễ dàng với thời gian tải trang siêu nhanh. Trình Bảo vệ Theo dõi Tăng cường tự động ngăn chặn hơn 2000 phần mềm theo dõi trên mạng xâm nhập vào sự riêng tư của bạn và làm chậm trang. Trình duyệt Firefox còn đưa đến một thiết kế hoàn toàn mới giúp xử lý nhiều việc hơn, nhanh hơn. Hơn nữa, với các tính năng duyệt thông minh tích hợp, Firefox cho phép bạn mang theo mình sự riêng tư, mật khẩu và đánh dấu trang an toàn mọi nơi.\n\nMỘT CHẠM VÀO CHẾ ĐỘ RIÊNG TƯ\nGiờ đây bạn có thể bật Chế độ Duyệt Riêng tư chỉ với một chạm. Và khi bạn đóng Chế độ Duyệt Riêng tư, lịch sử duyệt của bạn sẽ tự động xóa.\n\nTÙY CHỈNH CÁCH BẠN MUỐN TÌM KIẾM\nGiữ thanh tìm kiếm ở trên. Hoặc di chuyển xuống bên dưới. Trình duyệt Firefox không chỉ cho phép bạn chọn cách tìm kiếm mà còn chọn lượng dữ liệu cá nhân để chia sẻ. Các cài đặt trong trình Bảo vệ Theo dõi Tăng cường đưa bạn quyền kiểm soát dữ liệu. Bạn còn được lựa chọn công cụ tìm kiếm và khả năng biến Firefox thành trình duyệt mặc định."
 	},
@@ -436,7 +445,7 @@
 		"b_versionNameNew":"130.3.3",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VieON_v130.3.3.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//VieON.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/VieON.png",
 		"f_packageName":"com.vieon.tv",
 		"g_note":"Bạn sẽ không thể rời mắt khỏi VieON với hơn 60,000 giờ giải trí chất lượng cao và nội dung mới luôn được cập nhật hàng ngày:\n\n- Hơn 140 kênh truyền hình trực tuyến đặc sắc trong và ngoài nước như VTV, HTV, THVL, VTV6 HD, HTV3..., AXN, Cartoon Network, Fox Sport 3, CNN, BBC World News …\n- Phim độc quyền phát sóng cùng lúc với nước sản xuất\n- Phim bản quyền đa dạng nhiều thể loại: kinh dị, hình sự, tình cảm, hành động, siêu anh hùng, khoa học viễn tưởng, ngôn tình, hoạt hình, anime\n- Phim bom tấn HBO GO mới nhất, xem cùng lúc với Hollywood\n- Phim chiếu rạp, phim bộ Hồng Kông TVB, phim Hàn Quốc, phim bộ Thái, phim Trung Quốc cổ trang, phim Trung Quốc\n- VieON Originals – Thưởng thức phim Việt Nam độc quyền và sớm nhất\n- Thể Thao Đỉnh Cao với các giải đấu quốc tế rực lửa như bóng đá trực tuyến Ngoại Hạng Anh, cúp FA, Copa America, UEFA Europa League, cùng các chương trình thể thao đặc sắc như ATP, PGA, F1, UFC, Wimbledon…"
 	},
@@ -445,7 +454,7 @@
 		"b_versionNameNew":"3.73.0_452_2212121612",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/MyTV_3.73.0_452_2212121612.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//MyTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/MyTV.png",
 		"f_packageName":"vn.mytvnet.b2cott",
 		"g_note":"THOẢ SỨC THƯ GIÃN – MÃN NHÃN TRẢI NGHIỆM CÙNG ỨNG DỤNG MyTV\n\n- Xem cả ngày không chán gần 200 kênh truyền hình đặc sắc trong nước và quốc tế.\n- Kho phim dài tập chiếu song song luôn được cập nhật liên tục của Trung Quốc, Hàn Quốc, Thái Lan…\n- Series phim chiếu rạp mới và hoành tráng nhất update từng ngày.\n- Ăn - ngủ cùng các giải đấu thể thao đỉnh cao trên thế giới.\n- Kéo cảm xúc đi lên với tuyển tập chương trình ca nhạc; gameshow truyền hình ăn khách nhất.\n- Tất cả đã được gói gọn trong một siêu ứng dụng MyTV\nTÍNH NĂNG HẤP DẪN\n- Chỉ với một tài khoản duy nhất, có thể xem trên đa nền tảng điện thoại smartphone, máy tính bảng và TV với giao diện thân thiện hiện đại, dễ sử dụng.\n- Kết nối không giới hạn các nhà mạng tại Việt Nam\n- Không bỏ lỡ bất kỳ chương trình truyền hình yêu thích nào với tính năng xem lại, tua lại, lưu tại điểm dừng.\n- Điều khiển từ xa bằng điện thoại và tìm kiếm bằng giọng nói giúp cho trải nghiệm tuyệt vời hơn.\n\nChi tiết liên hệ: 18001166; website: www.mytv.com.vn"
 	},
@@ -454,7 +463,7 @@
 		"b_versionNameNew":"4.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VSport_4.0.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//VSport.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/VSport.png",
 		"f_packageName":"com.inet.livefootball",
 		"g_note":"VSport TV tổng hợp và cập nhật đầy đủ các trận bóng, cùng lịch thi đấu. Cứ đến giờ có trận đấu, các bạn nhấn vào mục Trực tiếp sẽ có đầy đủ, nhấn vào trận nào là xem trận đó. Để theo dõi lịch các trận đấu, hãy nhấn vào nút menu, chọn vào Lịch bóng đá. VSport TV có riêng mục để chúng ta theo dõi tin tức, hoặc video những sự kiện nóng hổi thường ngày."
 	},
@@ -463,25 +472,25 @@
 		"b_versionNameNew":"19.4",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/KODIVN194.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//KODIVN.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/KODIVN.png",
 		"f_packageName":"org.xbmc.kodi",
 		"g_note":"KODIVN bản v8_240122\nVẫn với tiêu chí đơn giản, gọn nhẹ, cài là dùng luôn, hướng tới đông đảo người dùng Android, phổ cập KODI tới nhiều người hơn, xin gửi tới cộng đồng bản KODIVN mod:\n- Cài sẵn các addon VietmediaF, Vn Media\n- Tối ưu hóa app, tương thích với cả các box yếu\n- Cài đặt sẵn tiếng Việt\n- Cài sẵn addon phụ đề\n- Cài sẵn addon gợi ý cho bàn phím\n- Lưu lịch sử xem video\n- Tính năng quay đầu nhìn lại là chia tay\nThanks coder Huỳnh Phước Pháp , bác Nguyễn Thanh Sang ..."
 	},
 	{
 		"a_name":"Kodi - PHAP",
-		"b_versionNameNew":"20.1",
+		"b_versionNameNew":"21.0-ALPHA2",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/KODI-20.1-DolbyHDR10PHAP.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//kodi_20.png",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/KODI_21FREE_PHAP.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/kodi_20.png",
 		"f_packageName":"net.kodinerds.maven.kodi20",
-		"g_note":"KODI 20.1 FINAL PREMIUM\uD83C\uDF81\uD83C\uDF81\uD83C\uDF81\uD83C\uDF81\uD83C\uDF81\nChính thức -> phát hành ngày 13/03/2023\nFix vá các lỗi của KODI 20\nNâng cấp Python lên 3.11.2 nhanh hơn\nKODI MOD dành cho mọi thiết bị \nMọi tính năng đều ngon như các bản mod trước.\nThanks bác Huỳnh Phước Pháp."
+		"g_note":"- AE chỉ việc cài và sử dụng - dễ như ăn kẹo\n* Xem Phim Miễn phí - Xem Thể Thao Miễn Phí\n+ Nhẹ mượt\n+ Tích hợp sẵn subscene\n+ Tua Phim như Youtube\n+ Tự động play phim bộ\n+ Chỉ cài 2 addon VNmedia và Elementum xem phim miễn phí\nHỗ trợ cho Android TV hoặc Box - Smartphone - Tablet \nAndroid là được nha \nChúc ae đầu tuần may mắn ⭐\nLink tải: nhập link vào web ( xoá khoảng trắng. )\nGg. Gg/phapapk - tìm app Kodi Premium \nĐường dẫn tải file KODI bản miễn phí :\n 21.2 - Android - FREE\nĐường dẫn tải file KODI bản Fshare: \n21.2 - Android - FSHARE\nLưu ý: ae muốn đổi giao diện thành màu khác thì\nVào cài đặt - cài đặt giao diện - tiện ích bổ sung - tắt bật chủ đề\nĐể chỉnh màu sắc theo ý thích\nVào cài đặt - giao diện - màu sắc- ( chỉnh theo ý)\nThanks bác Huỳnh Phước Pháp."
 	},
 	{
 		"a_name":"Google TV",
 		"b_versionNameNew":"2.2.0.138699360",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/GoogleV2.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//googleTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/googleTV.png",
 		"f_packageName":"com.google.android.katniss",
 		"g_note":"Lưu ý : giọng nói đang hoạt động không được cập nhật Google.\nNếu lỗi do cập nhật Google: Hãy xoá Google TV từ DL Store và tiến hành cài lại.\nNếu lỗi giọng nói ,mà giao diện HomeTV mất logo ở giữa vậy là bản HomeTV bạn đang dùng là bản cố tình sử dụng từ bản bị các shop không uy tín chia sẻ với nhau.\n\nĐể hỗ trợ giọng nói lại hãy liên hệ tác giả qua thông tin ở phần Giới Thiệu ứng dụng."
 	},
@@ -490,7 +499,7 @@
 		"b_versionNameNew":"1.2.9",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/happychick_TV1.2.9.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//happyChickForTV.jpg",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/happyChickForTV.jpg",
 		"f_packageName":"com.xiaoji.tvbox",
 		"g_note":"Hướng dẫn mô tả cho Happy Chick\nBạn đã bao giờ muốn chơi Trò chơi Play Station, PPSSPP và Trò chơi Cross Fire trên Điện thoại di động và PC chạy Windows của mình chưa? Happy Chick là Trình giả lập trò chơi mới đáp ứng mọi mong muốn của bạn.\n\nChỉ cần tải xuống Happy Chick Game Emulator xuống PC Android / iOS / Windows của bạn và bắt đầu chơi. Ứng dụng không có sẵn trên App Store nhưng bạn có thể tải xuống trực tiếp từ bên dưới. Happy Chick chứa đầy các tính năng nâng cao và được phát triển bởi Xiaoji Studio.\n\nHappy Chick APK cũng tương thích với TV Box, có nghĩa là bạn cũng có thể chơi các trò chơi console trên TV của mình ngay bây giờ.\n\nHappy Chick là lựa chọn tốt nhất hiện có. Ứng dụng này là hướng dẫn có thể thông báo cho bạn cách bắt chước nền tảng mà bạn tưởng tượng.\n\nĐây chỉ là mẹo dành cho Happy Chick, dù sao thì chúng tôi cũng không liên kết hay kết nối với Happy Chick. Điều này trong một lời khuyên không chính thức. Sử dụng mẹo này dưới trách nhiệm của bạn."
 	},
@@ -499,7 +508,7 @@
 		"b_versionNameNew":"22.06.07_vi-dinhlap",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/LeanKeyKeyboardPro_v22.06.07_vi.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//LeanKeyKeyboard.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/LeanKeyKeyboard.png",
 		"f_packageName":"com.liskovsoft.leankeyboard",
 		"g_note":"Một số lượng lớn các hộp giải mã tín hiệu thiếu bàn phím tốt. Ứng dụng này nhằm khắc phục sự cố như vậy.\n\nĐặc trưng:\n- Hỗ trợ kiểu gõ tiếng việt\n- Hỗ trợ điều khiển từ xa đơn giản\n- Có bố cục cho hầu hết mọi ngôn ngữ\n- Hỗ trợ phím tắt bổ sung (ví dụ: menu)\n\n** Mã nguồn: https://github.com/yuliskov/LeanKeyKeyboard**\n\nBàn phím đã được thử nghiệm trên Xiaomi Mi Box, Amazon Fire TV, LETV Smart TV, Nexus Player và các thiết bị khác."
 	},
@@ -508,7 +517,7 @@
 		"b_versionNameNew":"1.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/BanPhimVN.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//BanPhimVN.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/BanPhimVN.png",
 		"f_packageName":"com.dinhlap.keyboard.vn",
 		"g_note":"Bàn phím Android TV Việt Nam.\nHỗ trợ Android TV, TV Box dùng điều khiển, ngôn ngữ Việt\nKích thước ứng dụng chỉ có 250kb siêu nhẹ, siêu mượt."
 	},
@@ -517,7 +526,7 @@
 		"b_versionNameNew":"1.4.3.190711",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/KeyboardTV_1.4.3.190711_modVN.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//KeyboardTV.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/KeyboardTV.png",
 		"f_packageName":"com.ndcsolution.androidtv.leankeykeyboard",
 		"g_note":"Đã mod tiếng việt\nBàn phím Android TV, TV Box hỗ trợ dùng điều khiển hoặc chuột bay\n\nBàn phím Android TV, TV Box hỗ trợ dùng điều khiển hoặc chuột bay\n\nTính năng, đặc điểm\n- Hỗ trợ màn hình TV, android TV Box\n- Hỗ trợ đầy đủ cho hộp điều khiển từ xa\n- chuyển đổi ngôn ngữ với báo chí dài trên thanh không gian bàn phím hoặc phím menu\n- phím hỗ trợ thêm (ví dụ phím menu)\n\nKeyboard has been tested on Xiaomi Mi Box, Amazon Fire TV, LETV Smart TV, Nexus Player.."
 	},
@@ -526,7 +535,7 @@
 		"b_versionNameNew":"2018.10.31-DL_vi",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/SetEdit_VH.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SetEdit.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/SetEdit.png",
 		"f_packageName":"by4a.setedit22",
 		"g_note":"Trình chỉnh sửa cơ sở dữ liệu cài đặt.\n\nTheo mặc định, để bảo vệ bạn, Android ngăn bạn sửa đổi bảng AN TOÀN và TOÀN CẦU. \nNếu bạn có Android Jellybean trở lên, bạn có thể xóa bảo vệ này khỏi trình bao ADB bằng lệnh :\n\n\"adb shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS\".\n\nTrên các phiên bản trước đó, bạn chỉ có thể gỡ bỏ lớp bảo vệ này trên thiết bị đã root bằng cách cài đặt SetEdit vào phân vùng hệ thống."
 	},
@@ -535,7 +544,7 @@
 		"b_versionNameNew":"1.1.4",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/SetOrientation.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//SetOrientation.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/SetOrientation.png",
 		"f_packageName":"com.googlecode.eyesfree.setorientation",
 		"g_note":"Đặt Hướng cho phép bạn buộc thiết bị của mình vào một hướng màn hình cụ thể. Hỗ trợ tất cả các hướng, trên Android 2.3 (Gingerbread) trở lên bao gồm các hướng đảo ngược (lộn ngược) và dựa trên cảm biến.\n\nMặc dù bạn có thể buộc bất kỳ ứng dụng nào vào bất kỳ hướng nào, nhưng không phải tất cả các ứng dụng sẽ hoạt động chính xác theo mọi hướng."
 	},
@@ -544,7 +553,7 @@
 		"b_versionNameNew":"3.6",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Remote_ADB_v3.6.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//RemoteADB.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/RemoteADB.png",
 		"f_packageName":"com.dinhlap.adb",
 		"g_note":"Chạy câu lệnh adb.\nChạy câu lệnh trong tệp tin.\nHiện thị tất cả id ứng dụng.\nGỡ cài đặt ứng dụng.\nXoá tất cả bộ nhớ đệm.\nXoá bộ nhớ đệm và dữ liệu tất cả ứng dụng người dùng cài đặt.(Trừ giao diện HomeTV)\nKhởi động lại.\n\nHướng dẫn kết nối:\nB1 Bật \"ADB debugging\" thiết bị cần kết nối.\nB2 Chạy ứng dụng nhập địa chỉ IP và Cổng(mặc định thường là 5555) thiết bị cần kết nối, kết nối với chính thiết bị thì nhấn kết nối luôn.\nB3 Nhấn kết nối.\n\nHướng dẫn bật ADB cho MiTV:\nB1 Settings - About - Nhấn nhiều lần vào Model (khi báo \"You are alrealy a developer\" là được).\nB2 Settings - Account Security - Để \"ADB debugging\" là \"Allow\" để bật.\nB3 Settings - About - Network info - IPV4 (để lấy địa chỉ IP, ví dụ : 192.168.0.1).\n\nPhát triển bởi : Đình Lập"
 	},
@@ -553,7 +562,7 @@
 		"b_versionNameNew":"1.0.33",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/PhoneCleaner.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//PhoneCleaner.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/PhoneCleaner.png",
 		"f_packageName":"phonecleaner.androidmaster.cleanupspace.phone.booster",
 		"g_note":"Phone Cleaner là ứng dụng dọn dẹp và tăng tốc chuyên nghiệp dành cho Android, có các chức năng dọn dẹp tệp rác, tăng cường bộ nhớ, làm mát CPU, trình quản lý ứng dụng, dọn dẹp thông báo và tiết kiệm pin. Tăng tốc điện thoại nhanh và dọn dẹp bộ nhớ cache thông minh Bạn thiếu dung lượng cho các ứng dụng và ảnh mới? Chỉ cần dọn dẹp bộ nhớ đệm ứng dụng và các tệp rác, tăng cường điện thoại của bạn chỉ với MỘT cú nhấp chuột! Super Cleaner là trình quản lý thiết bị và tối ưu hóa công cụ đã được hơn hàng triệu người dùng cài đặt. Chỉ cần tải xuống và tận hưởng ứng dụng dọn dẹp tốt nhất! Dọn dẹp điện thoại nhanh chóng! Tăng hiệu suất của điện thoại của bạn NGAY BÂY GIỜ!"
 	},
@@ -562,7 +571,7 @@
 		"b_versionNameNew":"1.0",
 		"c_versionName":"versionName",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/QuanLyTV3.apk",
-		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//QuanLyTV3.png",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/QuanLyTV3.png",
 		"f_packageName":"vn.dinhlap.manage.app",
 		"g_note":"Quản Lý Ứng Dụng - Root để hộ trợ tốt hơn."
 	}
