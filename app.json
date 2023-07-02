@@ -27,6 +27,15 @@
 		"g_note":"tvQuickActions là trình ánh xạ nút/phím được phát triển đặc biệt cho các thiết bị TV. Hỗ trợ Android TV, Google TV và AOSP trên hầu hết các thiết bị. Một trong những tính năng độc đáo chính cho phép bạn gán tối đa 5 hành động cho nút trên điều khiển từ xa và thêm nhiều chức năng hữu ích cho thiết bị của bạn. Mod Pro bởi PhápAPK"
 	},
 	{
+		"a_name":"OTT Navigator IPTV",
+		"b_versionNameNew":"MOD Pre",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/w5ztb4tejdt5j1p/OTT%20Navigator_PHAP.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/OTTNavigator.jpg",
+		"f_packageName":"studio.scillarium.ottnavigator",
+		"g_note":"Xem IPTV của nhà cung cấp của bạn trên mọi thiết bị (điện thoại, máy tính bảng, TV, TV-box). MOD mởi PhápAPK"
+	},
+	{
 		"a_name":"HDO Box",
 		"b_versionNameNew":"2.0.9",
 		"c_versionName":"versionName",
