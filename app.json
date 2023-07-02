@@ -133,5 +133,23 @@
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner//banner_DLTivi.png",
 		"f_packageName":"com.dinhlap.tivi",
 		"g_note":"DL Tivi là ứng dụng xem video, truyền hình yêu cầu sử dụng mạng dàng cho cả điện thoạt và TV.\n+Tìm kiếm bằng giọng nói.\n+ Lưu lại hai đường link danh sách kênh\n+ Tự động vào ngay kênh phát gần nhất lần trước.\n+ Giao diện dễ dùng : nhấn phím sang Trái hoặc phím sang Phải hiện danh sách  kênh, nhấn phím OK để mở Controller.\n+ Thay đổi tỉ lệ màn hình cho phù hợp.\n+ Điều khiển kênh bằng các phím số.\n+ Tính năng khởi động cùng thiết bị có thể không hoạt động trên thiết bị xiaomi.\n\nNhà phát triển: Đình Lập\nLiên hệ: https://www.facebook.com/DinhlapD.Lp"
-	}
+	},
+	{
+		"a_name":"Kiki - Trợ lý ảo Zalo",
+		"b_versionNameNew":"23.4.2-DEMO",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/7ip4kiw3csrj83l/Kiki-23.4.2-PARTNER-DEMO.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/kiki.png",
+		"f_packageName":"ai.zalo.kiki.tv",
+		"g_note":"Android TV là phiên bản hỗ trợ Kiki sử dụng trên TV thông minh và các TV Box chạy hệ điều hành Android TV. Tính năng điều khiển bằng giọng nói mang lại sự tiện ích khi xem TV. Chỉ bằng một câu nói đơn giản, người dùng có thể giao tiếp với trợ lý Kiki để mở kênh truyền hình, video trên youtube và nhiều tác vụ hữu ích khác.\nPhát triển bởi : by Zalo Group"
+	},
+	{
+		"a_name":"Cốc cốc TV Lite",
+		"b_versionNameNew":"1.6",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/2b2vxbwajoneijd/CocCocTVLite_1.6.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/tv_CocCoc_lite.png",
+		"f_packageName":"com.coccoc.trinhduyet_tvlite",
+		"g_note":"Trình duyệt Cốc Cốc TV là trình duyệt dành cho Smart Tivi sử dụng hệ điều hành Android TV và tivi kết nối với Android TV box"
+	},
 ]
