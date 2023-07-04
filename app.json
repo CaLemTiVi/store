@@ -1,4 +1,13 @@
 [
+{
+		"a_name":"App Cloner",
+		"b_versionNameNew":"2.1.1 MOD premium",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://www.dropbox.com/s/2t7dunaiuddstaf/AppCloner_2.1.1.apk?dl=1",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/appclone.jpg",
+		"f_packageName":"com.applisto.appcloner",
+		"g_note":"App Cloner cho phép bạn tạo và cài đặt nhiều bản sao ứng dụng Android. App Cloner là ứng dụng nhiều tài khoản duy nhất tạo ra các bản sao thực sự, độc lập và có thể cài đặt."
+	},
 		{
 		"a_name":"OttPlayer",
 		"b_versionNameNew":"7.0.1",
