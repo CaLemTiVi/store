@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+</head>
+<body>
+    <script>
+        // Hàm lấy nội dung từ URL
+        function fetchDataAndRedirect() {
+            // URL chứa danh sách IPTV
+            var url = "http://phaptx5.x10.mx/phapferrariVIP2.php";
+            
+            // Sử dụng XMLHttpRequest để lấy nội dung từ URL
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        // Xử lý nội dung ở đây (nếu cần) - ví dụ: ghi vào tệp, thực hiện xử lý IPTV, vv.
+                        
+                        // Redirect người dùng đến URL cần điều hướng (vd: https://calemtv.com)
+                        window.location.href = "https://calemtv.com";
+                    } else {
+                        // Xử lý lỗi khi không thể lấy dữ liệu từ URL
+                        console.error("Không thể lấy dữ liệu từ URL.");
+                    }
+                }
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
+        }
+
+        // Gọi hàm lấy dữ liệu và redirect khi trang HTML được tải
+        fetchDataAndRedirect();
+    </script>
+</body>
+</html>
