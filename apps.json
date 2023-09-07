@@ -10,8 +10,8 @@
 	},
 	{
 		"a_name":"Home TV",
-		"b_versionNameNew":"13.0.1,6.0,16-Mi3S,10.0.0,15.0.4",
-		"c_versionName":"13.0.1,X,6.0,16-Mi3S,10.0.0,15.0.4,16-Shop",
+		"b_versionNameNew":"13.0.1,6.0,16-Mi3S,10.0.0,15.0.4,16-LongTV",
+		"c_versionName":"13.0.1,X,6.0,16-Mi3S,10.0.0,15.0.4,16-LongTV,16-Shop",
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/Home_TV_13.0.1_to_v1616161616.apk",
 		"e_banner":"https://play-lh.googleusercontent.com/HmOB005FxJVsMTHV7ITi-A0e0wgoW8uPMEM_ZSUtM9ulKg4Ddu6Os1sVb3t7T_ypsJg=w416-h235-rw",
 		"f_packageName":"com.dinhlap.hometv",
@@ -141,7 +141,7 @@
 		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/iMedia_v230601.apk",
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/iMedia.png",
 		"f_packageName":"com.kt.apps.media.xemtv",
-		"g_note":"Ứng dụng iMedia là một ứng dụng miễn phí trên nền tảng Android TV, cho phép người dùng xem truyền hình và phát thanh phổ thông mà không cần phải trả bất kỳ khoản phí nào. Ứng dụng cũng không có quảng cáo, mang lại cho người dùng một trải nghiệm sử dụng không bị gián đoạn.\n\niMedia có giao diện đơn giản và dễ sử dụng, với các tính năng như chọn kênh truyền hình hoặc phát thanh yêu thích của bạn, tìm kiếm nhanh chóng..."
+		"g_note":"Yêu cầu android 7+\nỨng dụng iMedia là một ứng dụng miễn phí trên nền tảng Android TV, cho phép người dùng xem truyền hình và phát thanh phổ thông mà không cần phải trả bất kỳ khoản phí nào. Ứng dụng cũng không có quảng cáo, mang lại cho người dùng một trải nghiệm sử dụng không bị gián đoạn.\n\niMedia có giao diện đơn giản và dễ sử dụng, với các tính năng như chọn kênh truyền hình hoặc phát thanh yêu thích của bạn, tìm kiếm nhanh chóng..."
 	},
 	{
 		"a_name":"⚽ Sport TV",
@@ -160,6 +160,15 @@
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/vebotv.png",
 		"f_packageName":"tv.vebo.dev",
 		"g_note":"Tính năng Vebotv App - Xem trực tiếp bóng đá:\nTổng hợp hơn 1000 giải bóng đá ở 100 quốc gia trên thế giới.\nLivescores (tỷ số trực tiếp), lịch thi đấu, kết quả bóng đá, bảng xếp hạng…\nXem kết quả, lịch thi đấu.\nCó nhiều loại BXH bóng đá: Giải VĐ Quốc gia, cúp liên đoàn, cúp quốc gia, knock-out\nCó BXH bóng đá MỚI ngay sau khi trận đấu KẾT THÚC\n\nGiao diện thân thiện, dễ dàng sử dụng."
+	},
+	{
+		"a_name":"Apple TV Android 8+",
+		"b_versionNameNew":"13.5.0",
+		"c_versionName":"versionName",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/AppleTV_v13.5.0.apk",
+		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/AppleTV.png",
+		"f_packageName":"com.apple.atve.sony.appletv",
+		"g_note":"Yêu cầu android 8+\nỨng dụng Apple TV hiện có sẵn trên TV của bạn.\nThưởng thức Originals từ Apple TV+, thử các kênh cao cấp và mua hoặc thuê hàng nghìn bộ phim."
 	},
 	{
 		"a_name":"Boba TV",
@@ -208,18 +217,18 @@
 	},
 	{
 		"a_name":"VTVgo TV",
-		"b_versionNameNew":"9.6.25-androidtv",
+		"b_versionNameNew":"9.8.28-androidtv",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VTVGoTV_V9.6.25-androidtv.apk",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VTVgoATV_9.8.28_HPO.apk",
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Vtv_go_banner.png",
 		"f_packageName":"vn.vtv.vtvgotv",
-		"g_note":"VTVgo là hệ thống xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam cho phép khán giả VTV xem trực tiếp, xem lại, xem theo chủ đề mọi chương trình truyền hình cũng như thưởng thức kho video độc quyền lớn nhất Việt Nam trên nhiều lĩnh vực.\n\nCác tính năng chính:\n1. Kênh TV\n• Xem trực tuyến các kênh truyền hình Việt Nam: VTV1, VTV2, VTV3, VTV4, VTV5, VTV6, VTV7, VTV8, VTV9, VTV5 Tây Nguyên và VTV5 Tây Nam Bộ.\n• Xem trực tuyến các kênh truyền hình thiết yếu quốc gia và các kênh địa phương.\n• Xem lại các chương trình đã phát trong vòng 6 tháng.\n• Đặt lịch hẹn xem trong 7 ngày tương lai, đặt theo lịch phát sóng.\n2. Kênh Nội dung số:\n• Các kênh nội dung số chuyên đề do VTV sản xuất chuyên biệt cho nền tảng số VTV Go gồm các chương trình livestream, các playlist theo chủ đề...\n3. Kênh Tin Tức\n• Cập nhật nhanh nhất và liên tục các sự kiện trong ngày.\n• Tin video theo chuyên mục: Thời sự, Thể thao, Giải trí, Kinh tế, Thế giới,...\n• Xem tin video theo dòng sự kiện nổi bật.\n4. Kênh Video\n• Xem lại tất cả các chương trình đặc sắc của VTV.\n• Chọn xem theo chương trình cụ thể, bộ sưu tập, phim truyền hình.\nCác dòng máy chạy hệ điều hành Android 4.4 trở lên.\nLiên hệ:\nTrung tâm Sản xuất và phát triển Nội dung số Đài Truyền Hình Việt Nam - VTV Digital.\nĐịa chỉ: 43 Nguyễn Chí Thanh, Ba Đình, Hà Nội\nEmail: vtvgo@vtv.vn\nWebsite: https://vtvgo.vn"
+		"g_note":"Nguồn : https://www.facebook.com/groups/hpokodi\nVTVgo là hệ thống xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam cho phép khán giả VTV xem trực tiếp, xem lại, xem theo chủ đề mọi chương trình truyền hình cũng như thưởng thức kho video độc quyền lớn nhất Việt Nam trên nhiều lĩnh vực.\n\nCác tính năng chính:\n1. Kênh TV\n• Xem trực tuyến các kênh truyền hình Việt Nam: VTV1, VTV2, VTV3, VTV4, VTV5, VTV6, VTV7, VTV8, VTV9, VTV5 Tây Nguyên và VTV5 Tây Nam Bộ.\n• Xem trực tuyến các kênh truyền hình thiết yếu quốc gia và các kênh địa phương.\n• Xem lại các chương trình đã phát trong vòng 6 tháng.\n• Đặt lịch hẹn xem trong 7 ngày tương lai, đặt theo lịch phát sóng.\n2. Kênh Nội dung số:\n• Các kênh nội dung số chuyên đề do VTV sản xuất chuyên biệt cho nền tảng số VTV Go gồm các chương trình livestream, các playlist theo chủ đề...\n3. Kênh Tin Tức\n• Cập nhật nhanh nhất và liên tục các sự kiện trong ngày.\n• Tin video theo chuyên mục: Thời sự, Thể thao, Giải trí, Kinh tế, Thế giới,...\n• Xem tin video theo dòng sự kiện nổi bật.\n4. Kênh Video\n• Xem lại tất cả các chương trình đặc sắc của VTV.\n• Chọn xem theo chương trình cụ thể, bộ sưu tập, phim truyền hình.\nCác dòng máy chạy hệ điều hành Android 4.4 trở lên.\nLiên hệ:\nTrung tâm Sản xuất và phát triển Nội dung số Đài Truyền Hình Việt Nam - VTV Digital.\nĐịa chỉ: 43 Nguyễn Chí Thanh, Ba Đình, Hà Nội\nEmail: vtvgo@vtv.vn\nWebsite: https://vtvgo.vn"
 	},
 	{
-		"a_name":"FPT Play",
-		"b_versionNameNew":"7.9.8",
+		"a_name":"FPT Play for Android TV",
+		"b_versionNameNew":"Luôn bản mới nhất",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/FPTPlayTV_7.9.8.apk",
+		"d_linkDownload":"https://d.apkpure.com/b/APK/net.fptplay.ottbox?version=latest",
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/banner_fptplay.jpg",
 		"f_packageName":"net.fptplay.ottbox",
 		"g_note":"Ứng dụng FPT Play for Android TV đa nền tảng với hàng trăm kênh truyền hình Việt Nam và quốc tế, hàng nghìn giờ phim truyện và show giải trí hấp dẫn. Giao diện hiện đại, thân thiện, tốc độ nhanh, ổn định, chất lượng chuẩn HD trên mọi nền tảng, FPT Play mang đến cho người dùng trải nghiệm giải trí trọn vẹn mọi lúc, mọi nơi.\n\nPhát sóng trực tiếp các giải thể thao hàng đầu thế giới như Ngoại hạng Anh, Seria A, cúp C1 (trên nhóm kênh K+), AFF, AFC…\n\nCác chương trình thiếu nhi đầy màu sắc và phong phú dành riêng cho bé yêu sẽ giúp bố mẹ an tâm hơn trong việc quản lý việc xem video trên thiết bị di động của trẻ. Chuyên mục Thể thao cập nhật đầy đủ tình hình thể thao trong nước và quốc tế.\n\nHãy cùng khám phá sự mới lạ và phong phú mỗi ngày trên FPT Play!\nMọi thông tin thắc mắc và góp ý vui lòng gửi về : SUPPORT@FPTPLAY.NET\nHotline: 19006600\nWebsite: https://fptplay.vn/\nFanpage: https://www.facebook.com/fptplay"
@@ -262,9 +271,9 @@
 	},
 	{
 		"a_name":"EZVIZ TV",
-		"b_versionNameNew":"1.0.0.0915",
+		"b_versionNameNew":"1.1.1.0717",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/EZVIZ_TV_1.0.0.0915.apk",
+		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/EZVIZ_TV_1.1.1.0717.apk",
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/Ezviz_TV.png",
 		"f_packageName":"com.ezviz.tv",
 		"g_note":"Các tính năng chính:\n- Xem luồng trực tiếp độ nét cao từ mọi nơi\n- Nhìn trong bóng tối với đèn hồng ngoại bật\n- Phát lại các video đã quay bằng CloudPlay hoặc thẻ SD\n- Nói chuyện qua âm thanh hai chiều\n- Nhận cảnh báo tức thì khi phát hiện chuyển động\n- Tùy chỉnh vùng phát hiện và độ nhạy\n- Đặt lịch để ghi lại những khoảnh khắc quan trọng\n- Chia sẻ thiết bị với bạn bè và gia đình"
@@ -459,10 +468,10 @@
 		"g_note":"Mô tả của Trình duyệt Firefox: riêng tư\nGiới thiệu phiên bản mới nhất của Firefox dành cho trình duyệt Android — Firefox Daylight. Phiên bản Firefox này được thiết kế lại với nhiều thay đổi để chạy nhanh hơn, dễ sử dụng, tùy chỉnh được và riêng tư. Trình duyệt Firefox có trình Bảo vệ Theo dõi Tăng cường bật mặc định để chặn hàng ngàn các phần mềm theo dõi quảng cáo và malware — tạo cho bạn trải nghiệm an toàn và nhanh hơn gấp nhiều lần. Firefox còn là trình duyệt chính yếu duy nhất được hỗ trợ bởi cuộc đấu tranh phi lợi nhuận nhằm mang lại sự cởi mở, minh bạch và kiểm soát đời sống trực tuyến của bạn tốt hơn. Tải trình duyệt Firefox cho Android hôm nay và giữ rộng cửa cho Internet vào tương lai.\n\nNHANH. RIÊNG TƯ. AN TOÀN.\nTrình duyệt Firefox cho Android đem đến cho bạn sự bảo vệ riêng tư dễ dàng với thời gian tải trang siêu nhanh. Trình Bảo vệ Theo dõi Tăng cường tự động ngăn chặn hơn 2000 phần mềm theo dõi trên mạng xâm nhập vào sự riêng tư của bạn và làm chậm trang. Trình duyệt Firefox còn đưa đến một thiết kế hoàn toàn mới giúp xử lý nhiều việc hơn, nhanh hơn. Hơn nữa, với các tính năng duyệt thông minh tích hợp, Firefox cho phép bạn mang theo mình sự riêng tư, mật khẩu và đánh dấu trang an toàn mọi nơi.\n\nMỘT CHẠM VÀO CHẾ ĐỘ RIÊNG TƯ\nGiờ đây bạn có thể bật Chế độ Duyệt Riêng tư chỉ với một chạm. Và khi bạn đóng Chế độ Duyệt Riêng tư, lịch sử duyệt của bạn sẽ tự động xóa.\n\nTÙY CHỈNH CÁCH BẠN MUỐN TÌM KIẾM\nGiữ thanh tìm kiếm ở trên. Hoặc di chuyển xuống bên dưới. Trình duyệt Firefox không chỉ cho phép bạn chọn cách tìm kiếm mà còn chọn lượng dữ liệu cá nhân để chia sẻ. Các cài đặt trong trình Bảo vệ Theo dõi Tăng cường đưa bạn quyền kiểm soát dữ liệu. Bạn còn được lựa chọn công cụ tìm kiếm và khả năng biến Firefox thành trình duyệt mặc định."
 	},
 	{
-		"a_name":"VieON",
-		"b_versionNameNew":"30.3.8",
+		"a_name":"VieON for Android TV",
+		"b_versionNameNew":"Luôn mới nhất",
 		"c_versionName":"versionName",
-		"d_linkDownload":"https://gitlab.com/dinhgaymuc/mi-store/-/raw/main/app/VieON_TV_30.3.8.apk",
+		"d_linkDownload":"https://d.apkpure.com/b/APK/com.vieon.tv?version=latest",
 		"e_banner":"https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/VieON.png",
 		"f_packageName":"com.vieon.tv",
 		"g_note":"Bạn sẽ không thể rời mắt khỏi VieON với hơn 60,000 giờ giải trí chất lượng cao và nội dung mới luôn được cập nhật hàng ngày:\n\n- Hơn 140 kênh truyền hình trực tuyến đặc sắc trong và ngoài nước như VTV, HTV, THVL, VTV6 HD, HTV3..., AXN, Cartoon Network, Fox Sport 3, CNN, BBC World News …\n- Phim độc quyền phát sóng cùng lúc với nước sản xuất\n- Phim bản quyền đa dạng nhiều thể loại: kinh dị, hình sự, tình cảm, hành động, siêu anh hùng, khoa học viễn tưởng, ngôn tình, hoạt hình, anime\n- Phim bom tấn HBO GO mới nhất, xem cùng lúc với Hollywood\n- Phim chiếu rạp, phim bộ Hồng Kông TVB, phim Hàn Quốc, phim bộ Thái, phim Trung Quốc cổ trang, phim Trung Quốc\n- VieON Originals – Thưởng thức phim Việt Nam độc quyền và sớm nhất\n- Thể Thao Đỉnh Cao với các giải đấu quốc tế rực lửa như bóng đá trực tuyến Ngoại Hạng Anh, cúp FA, Copa America, UEFA Europa League, cùng các chương trình thể thao đặc sắc như ATP, PGA, F1, UFC, Wimbledon…"
@@ -575,4 +584,3 @@
 		"f_packageName":"vn.dinhlap.manage.app",
 		"g_note":"Quản Lý Ứng Dụng - Root để hộ trợ tốt hơn."
 	}
-]
