@@ -84,8 +84,6 @@
           var anh4 = app.anh4;
           var anh5 = app.anh5;
           var mota = app.mota;
-          var link = app.link;
-          var linkshop = app.linkshop;
 
           var appDiv = document.createElement('div');
           appDiv.classList.add('app-container');
@@ -106,17 +104,6 @@
           var motaP = document.createElement('p');
           motaP.textContent = mota;
           appInfoDiv.appendChild(motaP);
-
-          var downloadLink = document.createElement('a');
-          downloadLink.href = link;
-
-          // Thay thế chữ "Tải về" bằng ảnh
-          var downloadImage = document.createElement('img');
-          downloadImage.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/banner/download.png';
-          downloadImage.alt = 'Tải về';
-          downloadLink.appendChild(downloadImage);
-
-          appInfoDiv.appendChild(downloadLink);
 
           appDiv.appendChild(appInfoDiv);
 
