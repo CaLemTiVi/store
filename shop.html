@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kho Ứng dụng Cà Lem TV Store</title>
+  <style>
+    /* Định dạng CSS của ứng dụng của bạn */
+    .app-container {
+      display: flex;
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .app-banner {
+      width: 300px;
+      height: 168px;
+      margin-right: 10px;
+    }
+
+    .app-info {
+      flex: 1;
+    }
+
+    .column-divider {
+      border-left: 1px solid black;
+      margin: 0 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .app-container {
+        flex-direction: column;
+      }
+
+      .app-banner {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .column-divider {
+        border-left: none;
+        border-top: 1px solid black;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script>
+    // Địa chỉ URL dữ liệu ứng dụng của bạn
+    var appsDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/data.json';
+
+    // Tạo yêu cầu HTTP để lấy dữ liệu từ URL
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', appsDataUrl, true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Xử lý dữ liệu nhận được
+        var jsonData = JSON.parse(xhr.responseText);
+        var appContainer = document.getElementById('app');
+
+        jsonData.forEach(function(app) {
+          var tieude = app.tieude;
+          var anh1 = app.anh1;
+          var mota = app.mota;
+          var linkDownload = app.link;
+
+          var appDiv = document.createElement('div');
+          appDiv.classList.add('app-container');
+
+          var appBannerImg = document.createElement('img');
+          appBannerImg.src = anh1;
+          appBannerImg.alt = 'Banner';
+          appBannerImg.classList.add('app-banner');
+          appDiv.appendChild(appBannerImg);
+
+          var appInfoDiv = document.createElement('div');
+          appInfoDiv.classList.add('app-info');
+
+          var appNameHeader = document.createElement('h2');
+          appNameHeader.textContent = tieude;
+          appInfoDiv.appendChild(appNameHeader);
+
+          var appNoteP = document.createElement('p');
+          appNoteP.textContent = mota;
+          appInfoDiv.appendChild(appNoteP);
+
+          var downloadLink = document.createElement('a');
+          downloadLink.href = linkDownload;
+          downloadLink.textContent = 'Tải về';
+
+          appInfoDiv.appendChild(downloadLink);
+
+          appDiv.appendChild(appInfoDiv);
+
+          appContainer.appendChild(appDiv);
+
+          // Thêm dòng ngăn cách
+          var columnDivider = document.createElement('div');
+          columnDivider.classList.add('column-divider');
+          appContainer.appendChild(columnDivider);
+        });
+      }
+    };
+    xhr.send();
+  </script>
+</body>
+</html>
