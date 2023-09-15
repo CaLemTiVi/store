@@ -9,6 +9,7 @@
       border: 1px solid black;
       padding: 10px;
       margin-bottom: 10px;
+      position: relative;
     }
 
     .app-banner {
@@ -33,6 +34,27 @@
     .column-divider {
       border-left: 1px solid black;
       margin: 0 10px;
+    }
+
+    .slide-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+    }
+
+    .slide-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin: 0 5px;
+      border-radius: 5px;
+      font-size: 20px;
     }
 
     @media screen and (max-width: 600px) {
@@ -71,11 +93,12 @@
         // Xử lý dữ liệu nhận được
         var jsonData = JSON.parse(xhr.responseText);
         var appContainer = document.getElementById('app');
+        var currentAppIndex = 0;
 
-        for (var i = 0; i < jsonData.length; i++) {
-          var app = jsonData[i];
+        function updateAppDisplay() {
+          var app = jsonData[currentAppIndex];
           var appName = app.tieude;
-          var appBanner = app.anh1;
+          var appBannerImages = [app.anh1, app.anh2, app.anh3, app.anh4, app.anh5]; // Danh sách các ảnh
           var appNote = app.mota;
           var appDownloadLink = app.link;
 
@@ -86,7 +109,7 @@
           appBannerDiv.classList.add('app-banner');
 
           var appBannerImg = document.createElement('img');
-          appBannerImg.src = appBanner;
+          appBannerImg.src = appBannerImages[0]; // Sử dụng ảnh đầu tiên
           appBannerImg.alt = 'Banner';
 
           appBannerDiv.appendChild(appBannerImg);
@@ -111,30 +134,47 @@
 
           appDiv.appendChild(appInfoDiv);
 
+          appContainer.innerHTML = ''; // Xóa nội dung cũ
           appContainer.appendChild(appDiv);
 
-          // Kiểm tra xem ứng dụng hiện tại có phải là ứng dụng cuối cùng hay không
-          var isLastApp = i === jsonData.length - 1;
+          // Thêm slideshow
+          var currentBannerIndex = 0;
 
-          // Nếu không phải ứng dụng cuối cùng, thêm dòng ngăn cách
-          if (!isLastApp) {
-            var columnDivider = document.createElement('div');
-            columnDivider.classList.add('column-divider');
-            appContainer.appendChild(columnDivider);
+          function showNextBanner() {
+            currentBannerIndex = (currentBannerIndex + 1) % appBannerImages.length;
+            appBannerImg.src = appBannerImages[currentBannerIndex];
           }
+
+          function showPrevBanner() {
+            currentBannerIndex = (currentBannerIndex - 1 + appBannerImages.length) % appBannerImages.length;
+            appBannerImg.src = appBannerImages[currentBannerIndex];
+          }
+
+          // Tạo nút điều khiển slide
+          var slideControls = document.createElement('div');
+          slideControls.classList.add('slide-controls');
+
+          var prevButton = document.createElement('button');
+          prevButton.classList.add('slide-button');
+          prevButton.innerHTML = '&lt;'; // Sử dụng HTML entity để hiển thị ký tự <
+          prevButton.addEventListener('click', showPrevBanner);
+
+          var nextButton = document.createElement('button');
+          nextButton.classList.add('slide-button');
+          nextButton.innerHTML = '&gt;'; // Sử dụng HTML entity để hiển thị ký tự >
+          nextButton.addEventListener('click', showNextBanner);
+
+          slideControls.appendChild(prevButton);
+          slideControls.appendChild(nextButton);
+
+          appDiv.appendChild(slideControls);
+
+          // Hiển thị ảnh đầu tiên
+          showNextBanner();
         }
 
-        // Khởi tạo slideshow
-        var banners = document.querySelectorAll('.app-banner');
-        var currentBanner = 0;
-
-        function changeBanner() {
-          banners[currentBanner].classList.remove('active');
-          currentBanner = (currentBanner + 1) % banners.length;
-          banners[currentBanner].classList.add('active');
-        }
-
-        setInterval(changeBanner, 3000); // Thay đổi ảnh mỗi 3 giây
+        // Hiển thị ứng dụng đầu tiên
+        updateAppDisplay();
       }
     };
     xhr.send();
