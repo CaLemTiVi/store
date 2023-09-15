@@ -155,7 +155,6 @@
 
           appDiv.appendChild(appInfoDiv);
 
-          appContainer.innerHTML = ''; // Xóa nội dung cũ
           appContainer.appendChild(appDiv);
 
           // Thêm slideshow
@@ -192,6 +191,12 @@
 
           // Hiển thị ảnh đầu tiên
           showNextBanner();
+
+          // Chuyển đến ứng dụng tiếp theo sau khi hiển thị xong ứng dụng hiện tại
+          currentAppIndex++;
+          if (currentAppIndex < jsonData.length) {
+            setTimeout(updateAppDisplay, 5000); // Hiển thị mỗi 5 giây
+          }
         }
 
         // Hiển thị ứng dụng đầu tiên
