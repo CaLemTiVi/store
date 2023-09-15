@@ -13,8 +13,8 @@
     }
 
     .app-banner {
-      width: 400px;
-      height: 400px; /* Kích thước vuông 1:1 */
+      width: 300px;
+      height: 300px; /* Kích thước vuông 1:1 */
       margin-right: 10px;
       overflow: hidden; /* Ẩn phần dư thừa */
       position: relative;
@@ -55,15 +55,6 @@
       cursor: pointer;
       border-radius: 5px;
       font-size: 20px;
-    }
-
-    .download-button {
-      background-image: url('https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
     }
 
     .app-description {
@@ -112,7 +103,7 @@
           var app = jsonData[currentAppIndex];
           var appName = app.tieude;
           var appBannerImages = [app.anh1, app.anh2, app.anh3, app.anh4, app.anh5]; // Danh sách các ảnh
-          var appNote = app.mota;
+          var appDetail = app.mota;
           var appDownloadLink = app.link;
 
           var appDiv = document.createElement('div');
@@ -135,21 +126,43 @@
           appNameHeader.textContent = appName;
           appInfoDiv.appendChild(appNameHeader);
 
-          // Thêm nút "Tải về" ngay phía trước phần "Mô tả"
+          var appDetailP = document.createElement('p');
+          appDetailP.textContent = 'Chi tiết sản phẩm: ';
+          appDetailP.classList.add('app-description');
+          var appDetailLines = appDetail.split('\n');
+          appDetailLines.forEach(function(line) {
+            var lineP = document.createElement('p');
+            lineP.textContent = line;
+            appDetailP.appendChild(lineP);
+          });
+
+          appInfoDiv.appendChild(appDetailP);
+
           var downloadButton = document.createElement('a');
           downloadButton.href = appDownloadLink;
-          downloadButton.target = "_blank";
-          downloadButton.classList.add('download-button');
+          var downloadButtonImg = document.createElement('img');
+          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
+          downloadButton.appendChild(downloadButtonImg);
+
           appInfoDiv.appendChild(downloadButton);
 
-          var appNoteP = document.createElement('p');
-          appNoteP.classList.add('app-description'); // Để xử lý xuống dòng
-          appNoteP.textContent = appNote;
-          appInfoDiv.appendChild(appNoteP);
-
           appDiv.appendChild(appInfoDiv);
-          appContainer.innerHTML = '';
+
+          appContainer.innerHTML = ''; // Xóa nội dung cũ
           appContainer.appendChild(appDiv);
+
+          // Thêm slideshow
+          var currentBannerIndex = 0;
+
+          function showNextBanner() {
+            currentBannerIndex = (currentBannerIndex + 1) % appBannerImages.length;
+            appBannerImg.src = appBannerImages[currentBannerIndex];
+          }
+
+          function showPrevBanner() {
+            currentBannerIndex = (currentBannerIndex - 1 + appBannerImages.length) % appBannerImages.length;
+            appBannerImg.src = appBannerImages[currentBannerIndex];
+          }
 
           // Tạo nút điều khiển slide
           var slideControls = document.createElement('div');
@@ -172,16 +185,6 @@
 
           // Hiển thị ảnh đầu tiên
           showNextBanner();
-        }
-
-        function showPrevBanner() {
-          currentBannerIndex = (currentBannerIndex - 1 + appBannerImages.length) % appBannerImages.length;
-          appBannerImg.src = appBannerImages[currentBannerIndex];
-        }
-
-        function showNextBanner() {
-          currentBannerIndex = (currentBannerIndex + 1) % appBannerImages.length;
-          appBannerImg.src = appBannerImages[currentBannerIndex];
         }
 
         // Hiển thị ứng dụng đầu tiên
