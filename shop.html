@@ -13,8 +13,15 @@
 
     .app-banner {
       width: 300px;
-      height: 168px;
+      height: 300px; /* Kích thước vuông 1:1 */
       margin-right: 10px;
+      overflow: hidden; /* Ẩn phần dư thừa */
+    }
+
+    .app-banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Để hình ảnh lấp đầy toàn bộ phần vuông */
     }
 
     .app-info {
@@ -47,19 +54,7 @@
       }
     }
   </style>
-  <script>
-    // Chặn xem mã nguồn và chuột phải
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-    });
-
-    document.addEventListener('keydown', function(e) {
-      // Chặn phím F12
-      if (e.key === 'F12') {
-        e.preventDefault();
-      }
-    });
-  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -87,11 +82,15 @@
           var appDiv = document.createElement('div');
           appDiv.classList.add('app-container');
 
+          var appBannerDiv = document.createElement('div');
+          appBannerDiv.classList.add('app-banner');
+
           var appBannerImg = document.createElement('img');
           appBannerImg.src = appBanner;
           appBannerImg.alt = 'Banner';
-          appBannerImg.classList.add('app-banner');
-          appDiv.appendChild(appBannerImg);
+
+          appBannerDiv.appendChild(appBannerImg);
+          appDiv.appendChild(appBannerDiv);
 
           var appInfoDiv = document.createElement('div');
           appInfoDiv.classList.add('app-info');
@@ -124,6 +123,18 @@
             appContainer.appendChild(columnDivider);
           }
         }
+
+        // Khởi tạo slideshow
+        var banners = document.querySelectorAll('.app-banner');
+        var currentBanner = 0;
+
+        function changeBanner() {
+          banners[currentBanner].classList.remove('active');
+          currentBanner = (currentBanner + 1) % banners.length;
+          banners[currentBanner].classList.add('active');
+        }
+
+        setInterval(changeBanner, 3000); // Thay đổi ảnh mỗi 3 giây
       }
     };
     xhr.send();
