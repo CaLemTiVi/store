@@ -1,127 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kho Ứng dụng Cà Lem TV Store</title>
-  <style>
-    /* CSS của ứng dụng */
-    .app-container {
-      display: flex;
-      border: 1px solid black;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-
-    .app-banner {
-      width: 300px;
-      height: 168px;
-      margin-right: 10px;
-    }
-
-    .app-info {
-      flex: 1;
-    }
-
-    .column-divider {
-      border-left: 1px solid black;
-      margin: 0 10px;
-    }
-
-    @media screen and (max-width: 600px) {
-      .app-container {
-        flex-direction: column;
-      }
-
-      .app-banner {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-        margin-bottom: 10px;
-      }
-
-      .column-divider {
-        border-left: none;
-        border-top: 1px solid black;
-        margin: 10px 0;
-      }
-    }
-  </style>
-  <script>
-    // Chặn xem mã nguồn và chuột phải
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-    });
-
-    document.addEventListener('keydown', function(e) {
-      // Chặn phím F12
-      if (e.key === 'F12') {
-        e.preventDefault();
-      }
-    });
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Sản Phẩm</title>
+    <style>
+        /* Thêm các quy tắc CSS ở đây để tùy chỉnh giao diện trang web của bạn */
+    </style>
 </head>
 <body>
-  <div id="app"></div>
+    <div id="product-list">
+        <!-- Dữ liệu sản phẩm sẽ được hiển thị ở đây -->
+    </div>
 
-  <script>
-    // URL dữ liệu ứng dụng
-    var appsDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/data.json';
-
-    // Tạo yêu cầu HTTP để lấy dữ liệu từ URL
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', appsDataUrl, true);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        // Xử lý dữ liệu nhận được
-        var jsonData = JSON.parse(xhr.responseText);
-        var appContainer = document.getElementById('app');
-
-        for (var i = 0; i < jsonData.length; i++) {
-          var app = jsonData[i];
-          var tieude = app.tieude;
-          var anh1 = app.anh1;
-          var anh2 = app.anh2;
-          var anh3 = app.anh3;
-          var anh4 = app.anh4;
-          var anh5 = app.anh5;
-          var mota = app.mota;
-
-          var appDiv = document.createElement('div');
-          appDiv.classList.add('app-container');
-
-          var appBannerImg = document.createElement('img');
-          appBannerImg.src = anh1; // Sử dụng ảnh đầu tiên
-          appBannerImg.alt = 'Banner';
-          appBannerImg.classList.add('app-banner');
-          appDiv.appendChild(appBannerImg);
-
-          var appInfoDiv = document.createElement('div');
-          appInfoDiv.classList.add('app-info');
-
-          var tieudeHeader = document.createElement('h2');
-          tieudeHeader.textContent = tieude;
-          appInfoDiv.appendChild(tieudeHeader);
-
-          var motaP = document.createElement('p');
-          motaP.textContent = mota;
-          appInfoDiv.appendChild(motaP);
-
-          appDiv.appendChild(appInfoDiv);
-
-          appContainer.appendChild(appDiv);
-
-          // Kiểm tra xem ứng dụng hiện tại có phải là ứng dụng cuối cùng hay không
-          var isLastApp = i === jsonData.length - 1;
-
-          // Nếu không phải ứng dụng cuối cùng, thêm dòng ngăn cách
-          if (!isLastApp) {
-            var columnDivider = document.createElement('div');
-            columnDivider.classList.add('column-divider');
-            appContainer.appendChild(columnDivider);
-          }
-        }
-      }
-    };
-    xhr.send();
-  </script>
+    <script>
+        // Sử dụng JavaScript để tải dữ liệu từ tệp JSON và hiển thị trên trang web
+        fetch('https://raw.githubusercontent.com/CaLemTiVi/store/main/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const productContainer = document.getElementById('product-list');
+                data.forEach(product => {
+                    const productDiv = document.createElement('div');
+                    productDiv.innerHTML = `
+                        <h2>${product.tieude}</h2>
+                        <img src="${product.anh1}" alt="${product.tieude}">
+                        <p>${product.mota}</p>
+                        <a href="${product.link}" target="_blank">Xem sản phẩm</a>
+                        <a href="${product.linkshop}" target="_blank">Xem cửa hàng</a>
+                    `;
+                    productContainer.appendChild(productDiv);
+                });
+            })
+            .catch(error => {
+                console.error('Lỗi khi tải dữ liệu:', error);
+            });
+    </script>
 </body>
 </html>
