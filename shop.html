@@ -1,111 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kho Ứng dụng Cà Lem TV Store</title>
-  <style>
-    /* Định dạng CSS của ứng dụng của bạn */
-    .app-container {
-      display: flex;
-      border: 1px solid black;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Sản Phẩm</title>
+    <style>
+        /* CSS cho layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
-    .app-banner {
-      width: 300px;
-      height: 168px;
-      margin-right: 10px;
-    }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    .app-info {
-      flex: 1;
-    }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
 
-    .column-divider {
-      border-left: 1px solid black;
-      margin: 0 10px;
-    }
+        .left-column img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 10px;
+        }
 
-    @media screen and (max-width: 600px) {
-      .app-container {
-        flex-direction: column;
-      }
+        .right-column {
+            flex: 1;
+            padding: 20px;
+        }
 
-      .app-banner {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-        margin-bottom: 10px;
-      }
+        h1 {
+            font-size: 24px;
+        }
 
-      .column-divider {
-        border-left: none;
-        border-top: 1px solid black;
-        margin: 10px 0;
-      }
-    }
-  </style>
+        p {
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-  <div id="app"></div>
+    <div class="container">
+        <div class="left-column">
+            <img id="product-image" src="" alt="Sản phẩm">
+        </div>
+        <div class="right-column">
+            <h1 id="product-title"></h1>
+            <p id="product-description"></p>
+            <a id="product-link" href="#" target="_blank">Mua sản phẩm</a>
+            <a id="shop-link" href="#" target="_blank">Xem cửa hàng</a>
+        </div>
+    </div>
 
-  <script>
-    // Địa chỉ URL dữ liệu ứng dụng của bạn
-    var appsDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/data.json';
+    <script>
+        var jsonDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/data.json';
 
-    // Tạo yêu cầu HTTP để lấy dữ liệu từ URL
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', appsDataUrl, true);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        // Xử lý dữ liệu nhận được
-        var jsonData = JSON.parse(xhr.responseText);
-        var appContainer = document.getElementById('app');
+        // Lấy dữ liệu từ JSON
+        fetch(jsonDataUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Lấy sản phẩm đầu tiên từ JSON
+                var product = data[0];
 
-        jsonData.forEach(function(app) {
-          var tieude = app.tieude;
-          var anh1 = app.anh1;
-          var mota = app.mota;
-          var linkDownload = app.link;
-
-          var appDiv = document.createElement('div');
-          appDiv.classList.add('app-container');
-
-          var appBannerImg = document.createElement('img');
-          appBannerImg.src = anh1;
-          appBannerImg.alt = 'Banner';
-          appBannerImg.classList.add('app-banner');
-          appDiv.appendChild(appBannerImg);
-
-          var appInfoDiv = document.createElement('div');
-          appInfoDiv.classList.add('app-info');
-
-          var appNameHeader = document.createElement('h2');
-          appNameHeader.textContent = tieude;
-          appInfoDiv.appendChild(appNameHeader);
-
-          var appNoteP = document.createElement('p');
-          appNoteP.textContent = mota;
-          appInfoDiv.appendChild(appNoteP);
-
-          var downloadLink = document.createElement('a');
-          downloadLink.href = linkDownload;
-          downloadLink.textContent = 'Tải về';
-
-          appInfoDiv.appendChild(downloadLink);
-
-          appDiv.appendChild(appInfoDiv);
-
-          appContainer.appendChild(appDiv);
-
-          // Thêm dòng ngăn cách
-          var columnDivider = document.createElement('div');
-          columnDivider.classList.add('column-divider');
-          appContainer.appendChild(columnDivider);
-        });
-      }
-    };
-    xhr.send();
-  </script>
+                // Hiển thị thông tin sản phẩm
+                document.getElementById('product-image').src = product.anh1;
+                document.getElementById('product-title').textContent = product.tieude;
+                document.getElementById('product-description').textContent = product.mota;
+                document.getElementById('product-link').href = product.link;
+                document.getElementById('shop-link').href = product.linkshop;
+            })
+            .catch(error => {
+                console.error('Lỗi khi tải dữ liệu:', error);
+            });
+    </script>
 </body>
 </html>
