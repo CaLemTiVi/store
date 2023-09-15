@@ -17,6 +17,7 @@
       height: 300px; /* Kích thước vuông 1:1 */
       margin-right: 10px;
       overflow: hidden; /* Ẩn phần dư thừa */
+      position: relative;
     }
 
     .app-banner img {
@@ -38,7 +39,7 @@
 
     .slide-controls {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       position: absolute;
       bottom: 10px;
@@ -52,9 +53,12 @@
       border: none;
       padding: 5px 10px;
       cursor: pointer;
-      margin: 0 5px;
       border-radius: 5px;
       font-size: 20px;
+    }
+
+    .app-description {
+      white-space: pre-line;
     }
 
     @media screen and (max-width: 600px) {
@@ -123,7 +127,15 @@
           appInfoDiv.appendChild(appNameHeader);
 
           var appNoteP = document.createElement('p');
-          appNoteP.textContent = 'Mô tả: ' + appNote;
+          appNoteP.textContent = 'Mô tả: ';
+          appNoteP.classList.add('app-description');
+          var appNoteLines = appNote.split('\n');
+          appNoteLines.forEach(function(line) {
+            var lineP = document.createElement('p');
+            lineP.textContent = line;
+            appNoteP.appendChild(lineP);
+          });
+
           appInfoDiv.appendChild(appNoteP);
 
           var downloadLink = document.createElement('a');
@@ -167,7 +179,7 @@
           slideControls.appendChild(prevButton);
           slideControls.appendChild(nextButton);
 
-          appDiv.appendChild(slideControls);
+          appBannerDiv.appendChild(slideControls);
 
           // Hiển thị ảnh đầu tiên
           showNextBanner();
