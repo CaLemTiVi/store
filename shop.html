@@ -61,6 +61,11 @@
       white-space: pre-line;
     }
 
+    /* Thêm CSS để điều chỉnh kích thước chiều ngang của downloadButtonImg */
+    .download-button-img {
+      width: 250px; /* Đổi kích thước chiều ngang thành 250px */
+    }
+
     @media screen and (max-width: 600px) {
       .app-container {
         flex-direction: column;
@@ -142,6 +147,8 @@
           downloadButton.href = appDownloadLink;
           var downloadButtonImg = document.createElement('img');
           downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
+          // Thêm class CSS để điều chỉnh kích thước chiều ngang
+          downloadButtonImg.classList.add('download-button-img');
           downloadButton.appendChild(downloadButtonImg);
 
           appInfoDiv.appendChild(downloadButton);
