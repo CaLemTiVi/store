@@ -13,8 +13,8 @@
     }
 
     .app-banner {
-      width: 300px;
-      height: 300px; /* Kích thước vuông 1:1 */
+      width: 400px;
+      height: 400px; /* Kích thước vuông 1:1 */
       margin-right: 10px;
       overflow: hidden; /* Ẩn phần dư thừa */
       position: relative;
@@ -55,6 +55,15 @@
       cursor: pointer;
       border-radius: 5px;
       font-size: 20px;
+    }
+
+    .download-button {
+      background-image: url('https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
     }
 
     .app-description {
@@ -126,41 +135,21 @@
           appNameHeader.textContent = appName;
           appInfoDiv.appendChild(appNameHeader);
 
-          var appNoteP = document.createElement('p');
-          appNoteP.textContent = 'Mô tả: ';
-          appNoteP.classList.add('app-description');
-          var appNoteLines = appNote.split('\n');
-          appNoteLines.forEach(function(line) {
-            var lineP = document.createElement('p');
-            lineP.textContent = line;
-            appNoteP.appendChild(lineP);
-          });
+          // Thêm nút "Tải về" ngay phía trước phần "Mô tả"
+          var downloadButton = document.createElement('a');
+          downloadButton.href = appDownloadLink;
+          downloadButton.target = "_blank";
+          downloadButton.classList.add('download-button');
+          appInfoDiv.appendChild(downloadButton);
 
+          var appNoteP = document.createElement('p');
+          appNoteP.classList.add('app-description'); // Để xử lý xuống dòng
+          appNoteP.textContent = appNote;
           appInfoDiv.appendChild(appNoteP);
 
-          var downloadLink = document.createElement('a');
-          downloadLink.href = appDownloadLink;
-          downloadLink.textContent = 'Tải về';
-
-          appInfoDiv.appendChild(downloadLink);
-
           appDiv.appendChild(appInfoDiv);
-
-          appContainer.innerHTML = ''; // Xóa nội dung cũ
+          appContainer.innerHTML = '';
           appContainer.appendChild(appDiv);
-
-          // Thêm slideshow
-          var currentBannerIndex = 0;
-
-          function showNextBanner() {
-            currentBannerIndex = (currentBannerIndex + 1) % appBannerImages.length;
-            appBannerImg.src = appBannerImages[currentBannerIndex];
-          }
-
-          function showPrevBanner() {
-            currentBannerIndex = (currentBannerIndex - 1 + appBannerImages.length) % appBannerImages.length;
-            appBannerImg.src = appBannerImages[currentBannerIndex];
-          }
 
           // Tạo nút điều khiển slide
           var slideControls = document.createElement('div');
@@ -183,6 +172,16 @@
 
           // Hiển thị ảnh đầu tiên
           showNextBanner();
+        }
+
+        function showPrevBanner() {
+          currentBannerIndex = (currentBannerIndex - 1 + appBannerImages.length) % appBannerImages.length;
+          appBannerImg.src = appBannerImages[currentBannerIndex];
+        }
+
+        function showNextBanner() {
+          currentBannerIndex = (currentBannerIndex + 1) % appBannerImages.length;
+          appBannerImg.src = appBannerImages[currentBannerIndex];
         }
 
         // Hiển thị ứng dụng đầu tiên
