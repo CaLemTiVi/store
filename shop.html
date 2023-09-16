@@ -216,7 +216,6 @@
           // Thêm nội dung mô tả đầy đủ (ẩn đi ban đầu)
           var fullDescription = document.createElement('div');
           fullDescription.id = 'full-description';
-          fullDescription.style.display = 'none'; // Ẩn nội dung đầy đủ ban đầu
           var appFullDescriptionLines = appDetail.split('\n'); // Sử dụng toàn bộ nội dung mô tả
           appFullDescriptionLines.forEach(function(line) {
             var lineP = document.createElement('p');
@@ -228,9 +227,11 @@
 
           // Bắt sự kiện nhấn nút "Xem chi tiết"
           readMoreButton.addEventListener('click', function () {
+            // Ẩn nội dung rút gọn
+            appShortDescription.style.display = 'none';
             // Hiển thị nội dung đầy đủ
             fullDescription.style.display = 'block';
-            // Ẩn nút "Đọc tiếp"
+            // Ẩn nút "Xem chi tiết"
             readMoreButton.style.display = 'none';
           });
 
