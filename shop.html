@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kho Ứng dụng Cà Lem TV Store</title>
+  <title>Cà Lem TV - Shop</title>
   <style>
     /* Định dạng CSS của ứng dụng của bạn */
     .app-container {
@@ -210,7 +210,7 @@
           // Thêm nút "Đọc tiếp"
           var readMoreButton = document.createElement('button');
           readMoreButton.id = 'read-more-button';
-          readMoreButton.textContent = 'Đọc tiếp';
+          readMoreButton.textContent = 'Xem chi tiết';
           appInfoDiv.appendChild(readMoreButton);
 
           // Thêm nội dung mô tả đầy đủ (ẩn đi ban đầu)
@@ -226,7 +226,7 @@
 
           appInfoDiv.appendChild(fullDescription);
 
-          // Bắt sự kiện nhấn nút "Đọc tiếp"
+          // Bắt sự kiện nhấn nút "Xem chi tiết"
           readMoreButton.addEventListener('click', function () {
             // Hiển thị nội dung đầy đủ
             fullDescription.style.display = 'block';
@@ -256,7 +256,7 @@
           // Chuyển đến ứng dụng tiếp theo sau khi hiển thị xong ứng dụng hiện tại
           currentAppIndex++;
           if (currentAppIndex < jsonData.length) {
-            setTimeout(updateAppDisplay, 5000); // Hiển thị mỗi 5 giây
+            setTimeout(updateAppDisplay, 3000); // Hiển thị mỗi 3 giây
           }
         }
 
