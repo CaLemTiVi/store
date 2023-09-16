@@ -85,6 +85,18 @@
       font-size: 20px;
     }
 
+    /* Tùy chỉnh kiểu dáng của nút "Thu gọn" */
+    #collapse-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 20px;
+      margin-top: 10px; /* Khoảng cách giữa nút "Thu gọn" và nội dung đầy đủ */
+    }
+
     /* Tùy chỉnh kiểu dáng của nội dung đầy đủ */
     #full-description {
       white-space: pre-line;
@@ -117,19 +129,18 @@
 <body>
   <div id="app"></div>
 
-    <script>
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-  });
-</script>
-
-<script>
-  document.addEventListener('keydown', function(e) {
-    if (e.key == 'F12' || (e.key == 'U' && e.ctrlKey && e.shiftKey)) {
+  <script>
+    document.addEventListener('contextmenu', function(e) {
       e.preventDefault();
-    }
-  });
-</script>
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key == 'F12' || (e.key == 'U' && e.ctrlKey && e.shiftKey)) {
+        e.preventDefault();
+      }
+    });
+  </script>
+
   <script>
     // Địa chỉ URL dữ liệu ứng dụng của bạn
     var appsDataUrl = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/data.json';
@@ -227,6 +238,12 @@
           readMoreButton.textContent = 'Xem chi tiết';
           appInfoDiv.appendChild(readMoreButton);
 
+          // Thêm nút "Thu gọn"
+          var collapseButton = document.createElement('button');
+          collapseButton.id = 'collapse-button';
+          collapseButton.textContent = 'Thu gọn';
+          appInfoDiv.appendChild(collapseButton);
+
           // Thêm nội dung mô tả đầy đủ (ẩn đi ban đầu)
           var fullDescription = document.createElement('div');
           fullDescription.id = 'full-description';
@@ -246,8 +263,20 @@
             appShortDescription.style.display = 'none';
             // Hiển thị phần mô tả đầy đủ
             fullDescription.style.display = 'block';
-            // Ẩn nút "Xem chi tiết"
+            // Ẩn nút "Xem chi tiết" và hiển thị nút "Thu gọn"
             readMoreButton.style.display = 'none';
+            collapseButton.style.display = 'block';
+          });
+
+          // Bắt sự kiện nhấn nút "Thu gọn"
+          collapseButton.addEventListener('click', function () {
+            // Hiển thị phần mô tả ngắn gọn
+            appShortDescription.style.display = 'block';
+            // Ẩn phần mô tả đầy đủ
+            fullDescription.style.display = 'none';
+            // Ẩn nút "Thu gọn" và hiển thị nút "Xem chi tiết"
+            readMoreButton.style.display = 'block';
+            collapseButton.style.display = 'none';
           });
 
           // Thêm Giá tham khảo vào phần mô tả
