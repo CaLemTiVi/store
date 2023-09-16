@@ -75,27 +75,30 @@
     }
 
     /* Tùy chỉnh kiểu dáng của nút "Đọc tiếp" */
-    #read-more-button {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      border-radius: 5px;
-      font-size: 20px;
-    }
+#read-more-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  align-self: flex-start; /* Dịch chuyển nút "Xem chi tiết" sang bên trái */
+  margin-top: 10px; /* Khoảng cách với phần mô tả */
+}
 
-    /* Tùy chỉnh kiểu dáng của nút "Thu gọn" */
-    #collapse-button {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      border-radius: 5px;
-      font-size: 20px;
-      display: none; /* Ẩn nút "Thu gọn" ban đầu */
-    }
+/* Tùy chỉnh kiểu dáng của nút "Thu gọn" */
+#collapse-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  display: none; /* Ẩn nút "Thu gọn" ban đầu */
+  align-self: flex-start; /* Dịch chuyển nút "Thu gọn" sang bên trái */
+}
 
     /* Tùy chỉnh vị trí của nút "Thu gọn" */
     #collapse-button-container {
@@ -314,3 +317,4 @@
   </script>
 </body>
 </html>
+
