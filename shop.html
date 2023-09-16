@@ -134,7 +134,7 @@
           var app = jsonData[currentAppIndex];
           var appName = app.tieude;
           var appBannerImages = [app.anh1, app.anh2, app.anh3, app.anh4, app.anh5]; // Danh sách các ảnh
-          var appDetail = app.mota;
+          var appDetail = app.mota.replace(/\\n/g, '\n'); // Thay thế \\n bằng dấu xuống dòng
           var appDownloadLink = app.link;
           var appPrice = app.gia; // Lấy giá từ dữ liệu
 
@@ -184,86 +184,80 @@
           slideControls.appendChild(prevButton);
           slideControls.appendChild(nextButton);
 
-          appBannerDiv.appendChild(slideControls);
+          appInfoDiv.appendChild(slideControls);
 
-          // Hiển thị ảnh đầu tiên
-          showNextBanner();
+          // Tạo phần mô tả ứng dụng
+          var appDescription = document.createElement('p');
+          appDescription.classList.add('app-description');
+          appDescription.textContent = appDetail;
 
-          // Thêm phần mô tả ứng dụng
-          var appNameHeader = document.createElement('h2');
-          appNameHeader.textContent = appName;
-          appInfoDiv.appendChild(appNameHeader);
+          appInfoDiv.appendChild(appDescription);
 
-          // Thêm mô tả ngắn gọn (mặc định)
-          var appShortDescription = document.createElement('p');
-          appShortDescription.textContent = 'Chi tiết sản phẩm: ';
-          appShortDescription.classList.add('app-description');
-          var appShortDescriptionLines = appDetail.split('\n', 5); // Giới hạn số dòng mô tả ban đầu
-          appShortDescriptionLines.forEach(function(line) {
-            var lineP = document.createElement('p');
-            lineP.textContent = line;
-            appShortDescription.appendChild(lineP);
-          });
+          // Tạo nút tải ứng dụng
+          var downloadButton = document.createElement('a');
+          downloadButton.href = appDownloadLink;
+          downloadButton.target = '_blank';
 
-          appInfoDiv.appendChild(appShortDescription);
+          // Tạo hình ảnh nút tải ứng dụng
+          var downloadButtonImg = document.createElement('img');
+          downloadButtonImg.src = 'download_button.png'; // Đường dẫn đến hình ảnh nút tải ứng dụng
+          downloadButtonImg.alt = 'Download Button';
+          downloadButtonImg.classList.add('download-button-img'); // Thêm class cho CSS
+
+          downloadButton.appendChild(downloadButtonImg);
+          appInfoDiv.appendChild(downloadButton);
+
+          // Thêm Giá tham khảo
+          var appPriceElement = document.createElement('div');
+          appPriceElement.classList.add('app-price');
+          appPriceElement.textContent = 'Giá tham khảo: ' + appPrice; // Hiển thị giá
+
+          appInfoDiv.appendChild(appPriceElement);
 
           // Thêm nút "Đọc tiếp"
           var readMoreButton = document.createElement('button');
           readMoreButton.id = 'read-more-button';
           readMoreButton.textContent = 'Đọc tiếp';
+          readMoreButton.addEventListener('click', function() {
+            // Hiển thị nội dung đầy đủ khi nút "Đọc tiếp" được nhấp
+            var fullDescription = document.createElement('p');
+            fullDescription.id = 'full-description';
+            fullDescription.textContent = appDetail;
+
+            appInfoDiv.replaceChild(fullDescription, appDescription);
+            readMoreButton.style.display = 'none'; // Ẩn nút "Đọc tiếp"
+          });
+
           appInfoDiv.appendChild(readMoreButton);
-
-          // Thêm nội dung mô tả đầy đủ (ẩn đi ban đầu)
-          var fullDescription = document.createElement('div');
-          fullDescription.id = 'full-description';
-          fullDescription.style.display = 'none'; // Ẩn nội dung đầy đủ ban đầu
-          var appFullDescriptionLines = appDetail.split('\n'); // Sử dụng toàn bộ nội dung mô tả
-          appFullDescriptionLines.forEach(function(line) {
-            var lineP = document.createElement('p');
-            lineP.textContent = line;
-            fullDescription.appendChild(lineP);
-          });
-
-          appInfoDiv.appendChild(fullDescription);
-
-          // Bắt sự kiện nhấn nút "Xem đầy đủ chi tiết"
-          readMoreButton.addEventListener('click', function () {
-            // Hiển thị nội dung đầy đủ
-            fullDescription.style.display = 'block';
-            // Ẩn nút "Đọc tiếp"
-            readMoreButton.style.display = 'none';
-          });
-
-          // Thêm Giá tham khảo vào phần mô tả
-          var appPriceP = document.createElement('p');
-          appPriceP.textContent = 'Giá tham khảo: ' + appPrice;
-          appPriceP.classList.add('app-price');
-          appInfoDiv.appendChild(appPriceP);
-
-          // Thêm nút Download vào phần mô tả
-          var downloadButton = document.createElement('a');
-          downloadButton.href = appDownloadLink;
-          var downloadButtonImg = document.createElement('img');
-          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
-          downloadButtonImg.classList.add('download-button-img');
-          downloadButton.appendChild(downloadButtonImg);
-          appInfoDiv.appendChild(downloadButton);
 
           appDiv.appendChild(appInfoDiv);
 
+          appContainer.innerHTML = ''; // Xóa nội dung trước đó
           appContainer.appendChild(appDiv);
-
-          // Chuyển đến ứng dụng tiếp theo sau khi hiển thị xong ứng dụng hiện tại
-          currentAppIndex++;
-          if (currentAppIndex < jsonData.length) {
-            setTimeout(updateAppDisplay, 3000); // Hiển thị mỗi 5 giây
-          }
         }
 
-        // Hiển thị ứng dụng đầu tiên
         updateAppDisplay();
+
+        // Tạo nút điều khiển để chuyển đổi giữa các ứng dụng
+        var prevAppButton = document.createElement('button');
+        prevAppButton.textContent = 'Ứng dụng trước';
+        prevAppButton.addEventListener('click', function() {
+          currentAppIndex = (currentAppIndex - 1 + jsonData.length) % jsonData.length;
+          updateAppDisplay();
+        });
+
+        var nextAppButton = document.createElement('button');
+        nextAppButton.textContent = 'Ứng dụng tiếp theo';
+        nextAppButton.addEventListener('click', function() {
+          currentAppIndex = (currentAppIndex + 1) % jsonData.length;
+          updateAppDisplay();
+        });
+
+        appContainer.appendChild(prevAppButton);
+        appContainer.appendChild(nextAppButton);
       }
     };
+
     xhr.send();
   </script>
 </body>
