@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kho Ứng dụng Cà Lem TV Store</title>
+  <title>Cà Lem TV - shop</title>
   <style>
     /* Định dạng CSS của ứng dụng của bạn */
     .app-container {
@@ -68,7 +68,7 @@
 
     /* Thêm CSS cho phần Giá tham khảo */
     .app-price {
-      font-size: 25px; /* Kích thước chữ là 36px */
+      font-size: 25px; /* Kích thước chữ là 25px */
       font-weight: bold; /* Chữ đậm */
       color: red; /* Màu đỏ */
       margin-top: 10px; /* Khoảng cách giữa Giá và Download button */
@@ -226,7 +226,7 @@
 
           appInfoDiv.appendChild(fullDescription);
 
-          // Bắt sự kiện nhấn nút "Đọc tiếp"
+          // Bắt sự kiện nhấn nút "Xem đầy đủ chi tiết"
           readMoreButton.addEventListener('click', function () {
             // Hiển thị nội dung đầy đủ
             fullDescription.style.display = 'block';
@@ -256,7 +256,7 @@
           // Chuyển đến ứng dụng tiếp theo sau khi hiển thị xong ứng dụng hiện tại
           currentAppIndex++;
           if (currentAppIndex < jsonData.length) {
-            setTimeout(updateAppDisplay, 5000); // Hiển thị mỗi 5 giây
+            setTimeout(updateAppDisplay, 3000); // Hiển thị mỗi 5 giây
           }
         }
 
