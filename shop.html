@@ -225,15 +225,16 @@
 
           appInfoDiv.appendChild(fullDescription);
 
-          // Bắt sự kiện nhấn nút "Xem chi tiết"
-          readMoreButton.addEventListener('click', function () {
-            // Ẩn nội dung rút gọn
-            appShortDescription.style.display = 'none';
-            // Hiển thị nội dung đầy đủ
-            fullDescription.style.display = 'block';
-            // Ẩn nút "Xem chi tiết"
-            readMoreButton.style.display = 'none';
-          });
+// Bắt sự kiện nhấn nút "Xem chi tiết"
+readMoreButton.addEventListener('click', function () {
+  // Ẩn nội dung rút gọn
+  appShortDescription.style.display = 'none';
+  // Hiển thị nội dung đầy đủ
+  fullDescription.style.display = 'block';
+  // Ẩn nút "Xem chi tiết"
+  readMoreButton.style.display = 'none';
+});
+          
 
           // Thêm Giá tham khảo vào phần mô tả
           var appPriceP = document.createElement('p');
