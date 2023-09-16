@@ -59,6 +59,8 @@
 
     .app-description {
       white-space: pre-line;
+      max-height: 100px; /* Giới hạn chiều cao ban đầu của phần mô tả */
+      overflow: hidden;
     }
 
     /* Thêm CSS để điều chỉnh kích thước chiều ngang của downloadButtonImg */
@@ -72,6 +74,13 @@
       font-weight: bold; /* Chữ đậm */
       color: red; /* Màu đỏ */
       margin-top: 10px; /* Khoảng cách giữa Giá và Download button */
+    }
+
+    /* Thêm CSS cho nút "Đọc tiếp" */
+    .read-more-button {
+      margin-top: 10px;
+      color: blue;
+      cursor: pointer;
     }
 
     @media screen and (max-width: 600px) {
@@ -180,13 +189,27 @@
           appDetailP.textContent = 'Chi tiết sản phẩm: ';
           appDetailP.classList.add('app-description');
           var appDetailLines = appDetail.split('\n');
-          appDetailLines.forEach(function(line) {
+          var appDetailContent = document.createElement('div');
+          appDetailLines.forEach(function(line, index) {
             var lineP = document.createElement('p');
             lineP.textContent = line;
-            appDetailP.appendChild(lineP);
+            if (index >= 3) {
+              lineP.style.display = 'none';
+            }
+            appDetailContent.appendChild(lineP);
           });
 
-          appInfoDiv.appendChild(appDetailP);
+          appInfoDiv.appendChild(appDetailContent);
+
+          // Thêm nút "Đọc tiếp"
+          var readMoreButton = document.createElement('div');
+          readMoreButton.textContent = 'Đọc tiếp';
+          readMoreButton.classList.add('read-more-button');
+          readMoreButton.addEventListener('click', function() {
+            appDetailContent.style.height = 'auto';
+            readMoreButton.style.display = 'none';
+          });
+          appInfoDiv.appendChild(readMoreButton);
 
           // Thêm Giá tham khảo vào phần mô tả
           var appPriceP = document.createElement('p');
