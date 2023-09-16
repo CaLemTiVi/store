@@ -89,6 +89,7 @@
     #full-description {
       white-space: pre-line;
       margin-top: 10px;
+      display: none; /* Ẩn nội dung đầy đủ ban đầu */
       /* Thêm các thuộc tính CSS khác dựa trên thiết kế của bạn */
     }
 
@@ -216,6 +217,7 @@
           // Thêm nội dung mô tả đầy đủ (ẩn đi ban đầu)
           var fullDescription = document.createElement('div');
           fullDescription.id = 'full-description';
+          fullDescription.style.display = 'none'; // Ẩn nội dung đầy đủ ban đầu
           var appFullDescriptionLines = appDetail.split('\n'); // Sử dụng toàn bộ nội dung mô tả
           appFullDescriptionLines.forEach(function(line) {
             var lineP = document.createElement('p');
@@ -225,16 +227,15 @@
 
           appInfoDiv.appendChild(fullDescription);
 
-// Bắt sự kiện nhấn nút "Xem chi tiết"
-readMoreButton.addEventListener('click', function () {
-  // Ẩn phần mô tả ngắn gọn
-  appShortDescription.style.display = 'none';
-  // Hiển thị phần mô tả đầy đủ
-  fullDescription.style.display = 'block';
-  // Ẩn nút "Xem chi tiết"
-  readMoreButton.style.display = 'none';
-});
-          
+          // Bắt sự kiện nhấn nút "Xem chi tiết"
+          readMoreButton.addEventListener('click', function () {
+            // Ẩn phần mô tả ngắn gọn
+            appShortDescription.style.display = 'none';
+            // Hiển thị phần mô tả đầy đủ
+            fullDescription.style.display = 'block';
+            // Ẩn nút "Xem chi tiết"
+            readMoreButton.style.display = 'none';
+          });
 
           // Thêm Giá tham khảo vào phần mô tả
           var appPriceP = document.createElement('p');
