@@ -10,11 +10,14 @@
       padding: 10px;
       margin-bottom: 10px;
       position: relative;
+      flex-direction: column; /* Để hiển thị phần "Giá tham khảo" và nút "Download" phía dưới */
+      align-items: center; /* Để căn giữa nội dung */
+      text-align: center; /* Để căn giữa nội dung */
     }
 
     .app-banner {
-      width: 500px;
-      height: 500px; /* Kích thước vuông 1:1 */
+      width: 470px;
+      height: 470px; /* Kích thước vuông 1:1 */
       margin-right: 10px;
       overflow: hidden; /* Ẩn phần dư thừa */
       position: relative;
@@ -27,9 +30,7 @@
     }
 
     .app-info {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
+      width: 100%; /* Để nội dung mở rộng hết chiều rộng của container */
     }
 
     .column-divider {
@@ -68,7 +69,7 @@
 
     /* Thêm CSS cho phần Giá tham khảo */
     .app-price {
-      font-size: 36px; /* Kích thước chữ là 36px */
+      font-size: 28px; /* Kích thước chữ là 36px */
       font-weight: bold; /* Chữ đậm */
       color: red; /* Màu đỏ */
       margin-top: 10px; /* Khoảng cách giữa Giá và Download button */
@@ -133,10 +134,29 @@
           appBannerDiv.appendChild(appBannerImg);
           appDiv.appendChild(appBannerDiv);
 
+          // Thêm Giá tham khảo vào phần banner
+          var appPriceP = document.createElement('p');
+          appPriceP.textContent = 'Giá tham khảo: ' + appPrice;
+          appPriceP.classList.add('app-price');
+          appBannerDiv.appendChild(appPriceP);
+
           var appInfoDiv = document.createElement('div');
           appInfoDiv.classList.add('app-info');
 
-          // Thêm slideshow vào phía trên phần mô tả
+          // Thêm nút Download vào phần mô tả
+          var downloadButton = document.createElement('a');
+          downloadButton.href = appDownloadLink;
+          var downloadButtonImg = document.createElement('img');
+          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
+          downloadButtonImg.classList.add('download-button-img');
+          downloadButton.appendChild(downloadButtonImg);
+          appInfoDiv.appendChild(downloadButton);
+
+          appDiv.appendChild(appInfoDiv);
+
+          appContainer.appendChild(appDiv);
+
+          // Thêm slideshow
           var currentBannerIndex = 0;
 
           function showNextBanner() {
@@ -170,42 +190,6 @@
 
           // Hiển thị ảnh đầu tiên
           showNextBanner();
-
-          // Thêm phần mô tả ứng dụng
-          var appNameHeader = document.createElement('h2');
-          appNameHeader.textContent = appName;
-          appInfoDiv.appendChild(appNameHeader);
-
-          var appDetailP = document.createElement('p');
-          appDetailP.textContent = 'Chi tiết sản phẩm: ';
-          appDetailP.classList.add('app-description');
-          var appDetailLines = appDetail.split('\n');
-          appDetailLines.forEach(function(line) {
-            var lineP = document.createElement('p');
-            lineP.textContent = line;
-            appDetailP.appendChild(lineP);
-          });
-
-          appInfoDiv.appendChild(appDetailP);
-
-          // Thêm Giá tham khảo vào phần mô tả
-          var appPriceP = document.createElement('p');
-          appPriceP.textContent = 'Giá tham khảo: ' + appPrice;
-          appPriceP.classList.add('app-price');
-          appInfoDiv.appendChild(appPriceP);
-
-          // Thêm nút Download vào phần mô tả
-          var downloadButton = document.createElement('a');
-          downloadButton.href = appDownloadLink;
-          var downloadButtonImg = document.createElement('img');
-          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
-          downloadButtonImg.classList.add('download-button-img');
-          downloadButton.appendChild(downloadButtonImg);
-          appInfoDiv.appendChild(downloadButton);
-
-          appDiv.appendChild(appInfoDiv);
-
-          appContainer.appendChild(appDiv);
 
           // Chuyển đến ứng dụng tiếp theo sau khi hiển thị xong ứng dụng hiện tại
           currentAppIndex++;
