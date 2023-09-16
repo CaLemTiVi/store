@@ -94,15 +94,12 @@
       cursor: pointer;
       border-radius: 5px;
       font-size: 20px;
-      margin-top: 10px; /* Khoảng cách giữa nút "Thu gọn" và nội dung đầy đủ */
+      display: none; /* Ẩn nút "Thu gọn" ban đầu */
     }
 
-    /* Tùy chỉnh kiểu dáng của nội dung đầy đủ */
-    #full-description {
-      white-space: pre-line;
+    /* Tùy chỉnh vị trí của nút "Thu gọn" */
+    #collapse-button-container {
       margin-top: 10px;
-      display: none; /* Ẩn nội dung đầy đủ ban đầu */
-      /* Thêm các thuộc tính CSS khác dựa trên thiết kế của bạn */
     }
 
     @media screen and (max-width: 600px) {
@@ -133,7 +130,9 @@
     document.addEventListener('contextmenu', function(e) {
       e.preventDefault();
     });
+  </script>
 
+  <script>
     document.addEventListener('keydown', function(e) {
       if (e.key == 'F12' || (e.key == 'U' && e.ctrlKey && e.shiftKey)) {
         e.preventDefault();
@@ -238,11 +237,35 @@
           readMoreButton.textContent = 'Xem chi tiết';
           appInfoDiv.appendChild(readMoreButton);
 
-          // Thêm nút "Thu gọn"
+          // Thêm nút "Thu gọn" (ẩn ban đầu)
           var collapseButton = document.createElement('button');
           collapseButton.id = 'collapse-button';
           collapseButton.textContent = 'Thu gọn';
           appInfoDiv.appendChild(collapseButton);
+
+          // Thêm sự kiện nhấn nút "Đọc tiếp"
+          readMoreButton.addEventListener('click', function () {
+            // Ẩn phần mô tả ngắn gọn
+            appShortDescription.style.display = 'none';
+            // Hiển thị phần mô tả đầy đủ
+            fullDescription.style.display = 'block';
+            // Hiển thị nút "Thu gọn"
+            collapseButton.style.display = 'inline-block';
+            // Ẩn nút "Đọc tiếp"
+            readMoreButton.style.display = 'none';
+          });
+
+          // Thêm sự kiện nhấn nút "Thu gọn"
+          collapseButton.addEventListener('click', function () {
+            // Hiển thị phần mô tả ngắn gọn
+            appShortDescription.style.display = 'block';
+            // Ẩn phần mô tả đầy đủ
+            fullDescription.style.display = 'none';
+            // Ẩn nút "Thu gọn"
+            collapseButton.style.display = 'none';
+            // Hiển thị nút "Đọc tiếp"
+            readMoreButton.style.display = 'inline-block';
+          });
 
           // Thêm nội dung mô tả đầy đủ (ẩn đi ban đầu)
           var fullDescription = document.createElement('div');
@@ -256,28 +279,6 @@
           });
 
           appInfoDiv.appendChild(fullDescription);
-
-          // Bắt sự kiện nhấn nút "Xem chi tiết"
-          readMoreButton.addEventListener('click', function () {
-            // Ẩn phần mô tả ngắn gọn
-            appShortDescription.style.display = 'none';
-            // Hiển thị phần mô tả đầy đủ
-            fullDescription.style.display = 'block';
-            // Ẩn nút "Xem chi tiết" và hiển thị nút "Thu gọn"
-            readMoreButton.style.display = 'none';
-            collapseButton.style.display = 'block';
-          });
-
-          // Bắt sự kiện nhấn nút "Thu gọn"
-          collapseButton.addEventListener('click', function () {
-            // Hiển thị phần mô tả ngắn gọn
-            appShortDescription.style.display = 'block';
-            // Ẩn phần mô tả đầy đủ
-            fullDescription.style.display = 'none';
-            // Ẩn nút "Thu gọn" và hiển thị nút "Xem chi tiết"
-            readMoreButton.style.display = 'block';
-            collapseButton.style.display = 'none';
-          });
 
           // Thêm Giá tham khảo vào phần mô tả
           var appPriceP = document.createElement('p');
