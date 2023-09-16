@@ -66,6 +66,14 @@
       width: 250px; /* Đổi kích thước chiều ngang thành 250px */
     }
 
+    /* Thêm CSS cho phần Giá tham khảo */
+    .app-price {
+      font-size: 36px; /* Kích thước chữ là 36px */
+      font-weight: bold; /* Chữ đậm */
+      color: red; /* Màu đỏ */
+      margin-top: 10px; /* Khoảng cách giữa Giá và Download button */
+    }
+
     @media screen and (max-width: 600px) {
       .app-container {
         flex-direction: column;
@@ -128,41 +136,7 @@
           var appInfoDiv = document.createElement('div');
           appInfoDiv.classList.add('app-info');
 
-          var appNameHeader = document.createElement('h2');
-          appNameHeader.textContent = appName;
-          appInfoDiv.appendChild(appNameHeader);
-
-          var appDetailP = document.createElement('p');
-          appDetailP.textContent = 'Chi tiết sản phẩm: ';
-          appDetailP.classList.add('app-description');
-          var appDetailLines = appDetail.split('\n');
-          appDetailLines.forEach(function(line) {
-            var lineP = document.createElement('p');
-            lineP.textContent = line;
-            appDetailP.appendChild(lineP);
-          });
-
-          appInfoDiv.appendChild(appDetailP);
-
-          var appPriceP = document.createElement('p');
-          appPriceP.textContent = 'Giá tham khảo: ' + appPrice; // Thêm giá vào mô tả
-          appInfoDiv.appendChild(appPriceP);
-
-          var downloadButton = document.createElement('a');
-          downloadButton.href = appDownloadLink;
-          var downloadButtonImg = document.createElement('img');
-          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
-          // Thêm class CSS để điều chỉnh kích thước chiều ngang
-          downloadButtonImg.classList.add('download-button-img');
-          downloadButton.appendChild(downloadButtonImg);
-
-          appInfoDiv.appendChild(downloadButton);
-
-          appDiv.appendChild(appInfoDiv);
-
-          appContainer.appendChild(appDiv);
-
-          // Thêm slideshow
+          // Thêm slideshow vào phía trên phần mô tả
           var currentBannerIndex = 0;
 
           function showNextBanner() {
@@ -196,6 +170,42 @@
 
           // Hiển thị ảnh đầu tiên
           showNextBanner();
+
+          // Thêm phần mô tả ứng dụng
+          var appNameHeader = document.createElement('h2');
+          appNameHeader.textContent = appName;
+          appInfoDiv.appendChild(appNameHeader);
+
+          var appDetailP = document.createElement('p');
+          appDetailP.textContent = 'Chi tiết sản phẩm: ';
+          appDetailP.classList.add('app-description');
+          var appDetailLines = appDetail.split('\n');
+          appDetailLines.forEach(function(line) {
+            var lineP = document.createElement('p');
+            lineP.textContent = line;
+            appDetailP.appendChild(lineP);
+          });
+
+          appInfoDiv.appendChild(appDetailP);
+
+          // Thêm Giá tham khảo vào phần mô tả
+          var appPriceP = document.createElement('p');
+          appPriceP.textContent = 'Giá tham khảo: ' + appPrice;
+          appPriceP.classList.add('app-price');
+          appInfoDiv.appendChild(appPriceP);
+
+          // Thêm nút Download vào phần mô tả
+          var downloadButton = document.createElement('a');
+          downloadButton.href = appDownloadLink;
+          var downloadButtonImg = document.createElement('img');
+          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
+          downloadButtonImg.classList.add('download-button-img');
+          downloadButton.appendChild(downloadButtonImg);
+          appInfoDiv.appendChild(downloadButton);
+
+          appDiv.appendChild(appInfoDiv);
+
+          appContainer.appendChild(appDiv);
 
           // Chuyển đến ứng dụng tiếp theo sau khi hiển thị xong ứng dụng hiện tại
           currentAppIndex++;
