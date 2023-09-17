@@ -289,14 +289,15 @@
           appPriceP.classList.add('app-price');
           appInfoDiv.appendChild(appPriceP);
 
-          // Thêm nút Download vào phần mô tả
-          var downloadButton = document.createElement('a');
-          downloadButton.href = appDownloadLink;
-          var downloadButtonImg = document.createElement('img');
-          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
-          downloadButtonImg.classList.add('download-button-img');
-          downloadButton.appendChild(downloadButtonImg);
-          appInfoDiv.appendChild(downloadButton);
+// Thêm nút Download vào phần mô tả
+var downloadButton = document.createElement('a');
+downloadButton.href = appDownloadLink;
+downloadButton.target = '_blank'; // Mở liên kết trong cửa sổ mới
+var downloadButtonImg = document.createElement('img');
+downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
+downloadButtonImg.classList.add('download-button-img');
+downloadButton.appendChild(downloadButtonImg);
+appInfoDiv.appendChild(downloadButton);
 
           appDiv.appendChild(appInfoDiv);
 
