@@ -63,46 +63,60 @@
 
     /* Thêm CSS để điều chỉnh kích thước chiều ngang của downloadButtonImg */
     .download-button-img {
-      width: 250px; /* Đổi kích thước chiều ngang thành 250px */
+      width: 200px; /* Đổi kích thước chiều ngang thành 200px */
     }
 
     /* Thêm CSS cho phần Giá tham khảo */
     .app-price {
-      font-size: 18px; /* Kích thước chữ là 36px */
+      font-size: 18px; /* Kích thước chữ là 18px */
       font-weight: bold; /* Chữ đậm */
       color: red; /* Màu đỏ */
       margin-top: 10px; /* Khoảng cách giữa Giá và Download button */
     }
 
     /* Tùy chỉnh kiểu dáng của nút "Đọc tiếp" */
-#read-more-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 20px;
-  align-self: flex-start; /* Dịch chuyển nút "Xem chi tiết" sang bên trái */
-  margin-top: 10px; /* Khoảng cách với phần mô tả */
-}
+    #read-more-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      align-self: flex-start; /* Dịch chuyển nút "Xem chi tiết" sang bên trái */
+      margin-top: 10px; /* Khoảng cách với phần mô tả */
+    }
 
-/* Tùy chỉnh kiểu dáng của nút "Thu gọn" */
-#collapse-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 20px;
-  display: none; /* Ẩn nút "Thu gọn" ban đầu */
-  align-self: flex-start; /* Dịch chuyển nút "Thu gọn" sang bên trái */
-}
+    /* Tùy chỉnh kiểu dáng của nút "Thu gọn" */
+    #collapse-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      display: none; /* Ẩn nút "Thu gọn" ban đầu */
+      align-self: flex-start; /* Dịch chuyển nút "Thu gọn" sang bên trái */
+    }
 
     /* Tùy chỉnh vị trí của nút "Thu gọn" */
     #collapse-button-container {
       margin-top: 10px;
+    }
+
+    /* CSS cho container chứa nút Download và nút Tải về tùy chỉnh */
+    .download-buttons-container {
+      display: flex;
+      align-items: center;
+    }
+
+    /* CSS cho nút Download */
+    .download-button {
+      margin-right: 20px; /* Khoảng cách 20px với nút Tải về tùy chỉnh */
+    }
+
+    /* CSS cho nút Tải về tùy chỉnh */
+    .custom-download-button {
+      /* ... (các thuộc tính CSS của nút Tải về tùy chỉnh) */
     }
 
     @media screen and (max-width: 600px) {
@@ -164,6 +178,7 @@
           var appDetail = app.mota;
           var appDownloadLink = app.link;
           var appPrice = app.gia; // Lấy giá từ dữ liệu
+          var linkla = app.linkla; // Lấy liên kết tùy chỉnh từ dữ liệu
 
           var appDiv = document.createElement('div');
           appDiv.classList.add('app-container');
@@ -289,15 +304,31 @@
           appPriceP.classList.add('app-price');
           appInfoDiv.appendChild(appPriceP);
 
-// Thêm nút Download vào phần mô tả
-var downloadButton = document.createElement('a');
-downloadButton.href = appDownloadLink;
-downloadButton.target = '_blank'; // Mở liên kết trong cửa sổ mới
-var downloadButtonImg = document.createElement('img');
-downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/muangay.png';
-downloadButtonImg.classList.add('download-button-img');
-downloadButton.appendChild(downloadButtonImg);
-appInfoDiv.appendChild(downloadButton);
+          // Thêm container chứa cả hai nút Download và Tải về tùy chỉnh
+          var downloadButtonsContainer = document.createElement('div');
+          downloadButtonsContainer.classList.add('download-buttons-container');
+
+          // Thêm nút Download
+          var downloadButton = document.createElement('a');
+          downloadButton.href = appDownloadLink;
+          downloadButton.target = '_blank'; // Mở liên kết trong cửa sổ mới
+          var downloadButtonImg = document.createElement('img');
+          downloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/datshopee.png';
+          downloadButtonImg.classList.add('download-button-img');
+          downloadButton.appendChild(downloadButtonImg);
+
+          // Thêm nút Tải về tùy chỉnh
+          var customDownloadButton = document.createElement('a');
+          customDownloadButton.href = linkla; // Sử dụng giá trị từ data.json
+          customDownloadButton.target = '_blank'; // Mở liên kết trong cửa sổ mới
+          var customDownloadButtonImg = document.createElement('img');
+          customDownloadButtonImg.src = 'https://raw.githubusercontent.com/CaLemTiVi/store/main/datlaz.png';
+          customDownloadButtonImg.classList.add('download-button-img');
+          customDownloadButton.appendChild(customDownloadButtonImg);
+
+          downloadButtonsContainer.appendChild(downloadButton);
+          downloadButtonsContainer.appendChild(customDownloadButton);
+          appInfoDiv.appendChild(downloadButtonsContainer);
 
           appDiv.appendChild(appInfoDiv);
 
