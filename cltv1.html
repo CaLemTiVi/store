@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>..................</title>
-	<script>
-    // Chặn xem mã nguồn và chuột phải
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-    });
-
-    document.addEventListener('keydown', function(e) {
-      // Chặn phím F12
-      if (e.key === 'F12') {
-        e.preventDefault();
-      }
-    });
-  </script>
-    <script>
-        // Nội dung IPTV
-        var iptvContent = '#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vagroup_epg.xml, https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml, https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml, \nhttps://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml, https://raw.githubusercontent.com/iptv-org/epg/master/sites/tv24.co.uk/tv24.co.uk.channels.xml, \nhttps://raw.githubusercontent.com/iptv-org/epg/master/sites/tvtv.us/tvtv.us.channels.xml, https://raw.githubusercontent.com/iptv-org/epg/master/sites/vidio.com/vidio.com.channels.xml, \nhttps://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml, https://trada.info/epg.xml, https://7pal.short.gy/alex-epg, https://epg.pw/xmltv/epg.xml, http://bit.ly/guidevn, https://gg.gg/epgphap" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1\n\n#EXTINF:-1 group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv1.png",Cà Lem TV 01 - Làm mới cuộc sống của bạn\n\nhttp://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=104722&extension=ts&play_token=O2NNroHgM0\n\n#EXTINF:-1 group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv2.png", Cà Lem TV 02 - Giải trí bất tận\n\nhttp://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=20365&extension=ts&play_token=9xznlzuN0l\n#EXTINF:-1 tvg-id="sctv9hd01" group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv3.png",Cà Lem TV 03 - Thỏa mãn đam mê\nhttp://raw.bitnode.pm:81/play/live.php?mac=00:1a:79:23:76:45&stream=20370&extension=ts&play_token=omFAOfkOwY\n#https://s.id/sctv09\n#EXTINF:-1 group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv4.png",Cà Lem TV 04 S3 - Radio Nhạc - phát 24/7\n\nhttps://s.id/calemtvradio01\n\n#EXTINF:-1 group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv4.png",Cà Lem TV 04 - 1080p - Video Nhạc - phát 24/7\n\nhttps://edge1-eu-west.picarto.tv/stream/hls/golive%2bCaLemTV/1_0/index.m3u8\n#EXTINF:-1 group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv4.png",Cà Lem TV 04 720p - Video Nhạc - phát 24/7\n\nhttps://edge1-eu-west.picarto.tv/stream/hls/golive%2bCaLemTV/2_0/index.m3u8\n#EXTINF:-1 group-title="Cà Lem TV" tvg-logo="https://raw.githubusercontent.com/TrThay/CaLemTivi/main/calemtv4.png",Cà Lem TV 04 480p - Video Nhạc - phát 24/7\n\nhttps://edge1-eu-west.picarto.tv/stream/hls/golive%2bCaLemTV/3_0/index.m3u8';
-
-         // Khi trang đã load hoàn tất, chèn nội dung IPTV vào thẻ <textarea> và ẩn nó
-        document.addEventListener("DOMContentLoaded", function() {
-            var iptvTextarea = document.createElement("textarea");
-            iptvTextarea.id = "iptvData";
-            iptvTextarea.style.display = "none";
-            iptvTextarea.value = iptvContent;
-            document.body.appendChild(iptvTextarea);
-
-            // Lấy nội dung từ trang web khác và thêm vào sau đoạn mã nguồn IPTV
-            var url = "https://dl.dropboxusercontent.com/s/8azrpwo7fhsqcc5/kkk.m3u?dl=0";
-            fetch(url)
-                .then(response => response.text())
-                .then(data => {
-                    iptvTextarea.value += "\n\n" + data;
-                })
-                .catch(error => {
-                    console.error("Không thể lấy nội dung từ URL khác.");
-                });
-        });
-    </script>
-	// <meta http-equiv="refresh" content="0;url=https://calemtv.com">
+  <title>Lấy Nội Dung Tệp TXT</title>
 </head>
 <body>
+  <h1>Nội Dung Tệp TXT</h1>
+  <pre id="txt-content"></pre>
+
+  <script>
+    // Địa chỉ URL của tệp TXT
+    var txtUrl = "https://calemtv.000webhostapp.com/cltv.txt";
+
+    // Sử dụng XMLHttpRequest để tải tệp tin
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", txtUrl, true);
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Xử lý nội dung tệp tin
+        var txtContent = xhr.responseText;
+
+        // Hiển thị nội dung tệp tin trong phần tử <pre>
+        var txtContentElement = document.getElementById("txt-content");
+        txtContentElement.textContent = txtContent;
+      }
+    };
+
+    // Gửi yêu cầu để tải tệp tin
+    xhr.send();
+  </script>
 </body>
 </html>
